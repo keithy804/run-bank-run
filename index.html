@@ -51,13 +51,39 @@
                 background: #eee; padding: 1px 6px; border-radius: 10px; }
   .boe-footer { font-size: 14px; color: var(--muted); }
   footer { text-align: center; font-size: 12px; color: var(--muted); padding: 20px; }
+  /* Tooltip infrastructure */
+  .info-btn {
+    background: none; border: 1px solid var(--border); border-radius: 50%;
+    width: 20px; height: 20px; font-size: 11px; cursor: pointer;
+    color: var(--muted); margin-left: 8px; vertical-align: middle;
+    padding: 0; line-height: 1;
+  }
+  .info-btn:hover { background: #eee; color: var(--text); }
+  .tooltip-wrap { position: relative; display: inline-block; }
+  .tooltip-box {
+    display: none; position: absolute; top: calc(100% + 8px); left: 0;
+    z-index: 200; background: #fff; border: 1px solid var(--border);
+    border-radius: 8px; padding: 14px 16px; width: 300px; font-size: 14px;
+    line-height: 1.5; box-shadow: 0 4px 16px rgba(0,0,0,0.12); color: var(--text);
+  }
+  .tooltip-box.active { display: block; }
+  .tooltip-box p { margin: 0 0 8px; }
+  .tooltip-box p:last-child { margin: 0; }
+  .tooltip-source { color: var(--muted); font-size: 12px; }
+  /* About link in header */
+  .about-link { color: rgba(255,255,255,0.7); font-size: 13px; text-decoration: none;
+                margin-left: 12px; }
+  .about-link:hover { color: #fff; }
+  /* About section */
+  #about h3 { font-size: 15px; margin: 16px 0 4px; }
+  #about p  { font-size: 14px; color: var(--muted); margin: 0 0 8px; }
 </style>
 </head>
 <body>
 
 <header>
   <h1>🏦 UK Bank Stability Monitor</h1>
-  <p id="last-updated">Loading...</p>
+  <p id="last-updated">Loading... &nbsp;·&nbsp; <a class="about-link" href="#about">About this data ↓</a></p>
 </header>
 
 <div class="stale-warning" id="stale-warning">
@@ -69,13 +95,27 @@
 <main>
   <!-- Bank status cards -->
   <section>
-    <h2>Bank Status</h2>
+    <h2>Bank Status <span class="tooltip-wrap">
+      <button class="info-btn" aria-label="About Bank Status">ⓘ</button>
+      <div class="tooltip-box">
+        <p>Shows the current share price and daily movement for Barclays, Lloyds, NatWest, and HSBC — the four largest UK retail banks.</p>
+        <p>🟢 Green = normal &nbsp; 🟡 Amber = approaching alert levels &nbsp; 🔴 Red = significant drop (≥5% in a day or ≥15% over 5 days) &nbsp; ⚪ = data unavailable.</p>
+        <p class="tooltip-source">📡 Yahoo Finance, collected weekday mornings.</p>
+      </div>
+    </span></h2>
     <div class="bank-grid" id="bank-cards">Loading...</div>
   </section>
 
   <!-- Share price chart -->
   <section>
-    <h2>Share Prices</h2>
+    <h2>Share Prices <span class="tooltip-wrap">
+      <button class="info-btn" aria-label="About Share Prices">ⓘ</button>
+      <div class="tooltip-box">
+        <p>Daily closing prices in pence (p) for each bank on the London Stock Exchange, over up to 90 trading days.</p>
+        <p>Use the 7d / 30d / 90d buttons to change the chart window. Prices are not adjusted for dividends.</p>
+        <p class="tooltip-source">📡 Yahoo Finance via yfinance.</p>
+      </div>
+    </span></h2>
     <div class="toggle-group">
       <button class="active" onclick="setRange('prices', 7, this)">7d</button>
       <button onclick="setRange('prices', 30, this)">30d</button>
@@ -86,20 +126,65 @@
 
   <!-- SONIA chart -->
   <section>
-    <h2>SONIA Rate</h2>
+    <h2>SONIA Rate <span class="tooltip-wrap">
+      <button class="info-btn" aria-label="About SONIA">ⓘ</button>
+      <div class="tooltip-box">
+        <p><strong>SONIA</strong> (Sterling Overnight Index Average) is the rate at which banks lend to each other overnight in sterling. It is the UK's main benchmark interest rate — similar to SOFR in the US.</p>
+        <p>A sudden spike or drop in SONIA can signal stress in short-term bank funding markets. The chart shows the last 30 days.</p>
+        <p class="tooltip-source">📡 Bank of England IADB API (series IUDSOIA).</p>
+      </div>
+    </span></h2>
     <canvas id="sonia-chart"></canvas>
   </section>
 
   <!-- Headlines -->
   <section>
-    <h2>Latest Headlines</h2>
+    <h2>Latest Headlines <span class="tooltip-wrap">
+      <button class="info-btn" aria-label="About Headlines">ⓘ</button>
+      <div class="tooltip-box">
+        <p>Recent news headlines related to UK banking, filtered automatically for relevance.</p>
+        <p>Keywords matched: <em>bank, Barclays, Lloyds, NatWest, HSBC, banking, financial stability, Bank of England</em>.</p>
+        <p class="tooltip-source">📡 BBC Business, Reuters UK, and Bank of England RSS feeds.</p>
+      </div>
+    </span></h2>
     <ul class="headlines" id="headlines">Loading...</ul>
   </section>
 
   <!-- BoE footer -->
   <section>
-    <h2>Bank of England</h2>
+    <h2>Bank of England <span class="tooltip-wrap">
+      <button class="info-btn" aria-label="About Bank of England data">ⓘ</button>
+      <div class="tooltip-box">
+        <p><strong>CCyB</strong> (Countercyclical Capital Buffer) is extra capital UK banks must hold as a financial cushion. A higher rate means regulators are being more cautious about systemic risk.</p>
+        <p><strong>FSR</strong> (Financial Stability Report) is published by the Bank of England twice a year, assessing risks to the UK financial system.</p>
+        <p class="tooltip-source">📡 Bank of England RSS feed. CCyB rate and dates updated manually when BoE announces changes.</p>
+      </div>
+    </span></h2>
     <div class="boe-footer" id="boe-info">Loading...</div>
+  </section>
+  <!-- About section -->
+  <section id="about">
+    <h2>About This Monitor</h2>
+    <p style="font-size:14px;color:var(--muted);margin:0 0 16px;">
+      A personal dashboard for tracking the financial stability of the four largest UK retail banks.
+      Data is collected automatically on weekday mornings and the page updates within minutes.
+      Alerts fire when movements exceed predefined thresholds — they are informational only and not financial advice.
+    </p>
+
+    <h3>What the indicators mean</h3>
+    <p><strong>Share prices</strong> — Daily closing prices in pence from the London Stock Exchange. Status colours reflect day-on-day (≥5% = red) and 5-day (≥15% = red) moves.</p>
+    <p><strong>SONIA</strong> — The Sterling Overnight Index Average: the rate UK banks charge each other for overnight loans. Sudden moves can indicate funding stress.</p>
+    <p><strong>CCyB</strong> — Countercyclical Capital Buffer: the extra capital UK banks must hold as a rainy-day fund. Set by the Bank of England's Financial Policy Committee.</p>
+    <p><strong>FSR</strong> — Financial Stability Report: published twice a year by the Bank of England, assessing risks to the UK financial system.</p>
+
+    <h3>Where the data comes from</h3>
+    <p><strong>Share prices &amp; 52-week highs/lows</strong> — Yahoo Finance (via the open-source yfinance library).</p>
+    <p><strong>SONIA rate</strong> — Bank of England IADB API, series IUDSOIA.</p>
+    <p><strong>News headlines</strong> — BBC Business, Reuters UK, and Bank of England RSS feeds, filtered for banking keywords.</p>
+    <p><strong>BoE announcements, CCyB rate, FSR dates</strong> — Bank of England publications RSS feed; CCyB rate and dates are updated manually when the BoE announces changes.</p>
+
+    <h3>Disclaimer</h3>
+    <p>This monitor is for personal informational use only. It is not financial advice. Data may be delayed or inaccurate. Do not make investment decisions based on this dashboard.</p>
   </section>
 </main>
 
@@ -139,8 +224,8 @@ function renderHeader() {
   const yy = String(dt.getUTCFullYear()).slice(-2);
   const hh = String(dt.getUTCHours()).padStart(2,'0');
   const mn = String(dt.getUTCMinutes()).padStart(2,'0');
-  document.getElementById("last-updated").textContent =
-    `Last updated: ${dd}/${mm}/${yy} ${hh}:${mn} UTC`;
+  document.getElementById("last-updated").innerHTML =
+    `Last updated: ${dd}/${mm}/${yy} ${hh}:${mn} UTC &nbsp;·&nbsp; <a class="about-link" href="#about">About this data ↓</a>`;
 
   const ageHours = (Date.now() - dt.getTime()) / 3600000;
   if (ageHours > 48) {
@@ -256,6 +341,20 @@ function renderBoE() {
 loadData().catch(err => {
   document.getElementById("last-updated").textContent = "Failed to load data";
   console.error(err);
+});
+
+// Tooltip toggle — click ⓘ to open, click anywhere else to close
+document.addEventListener('click', function(e) {
+  const btn = e.target.closest('.info-btn');
+  const boxes = document.querySelectorAll('.tooltip-box');
+  if (btn) {
+    const box = btn.closest('.tooltip-wrap').querySelector('.tooltip-box');
+    const wasActive = box.classList.contains('active');
+    boxes.forEach(b => b.classList.remove('active'));
+    if (!wasActive) { box.classList.add('active'); e.stopPropagation(); }
+  } else {
+    boxes.forEach(b => b.classList.remove('active'));
+  }
 });
 </script>
 </body>
