@@ -98,7 +98,7 @@ def build_weekly_html(data: dict) -> str:
         .replace("{{updated_display}}", datetime.now().strftime("%d/%m/%y %H:%M UTC"))
         .replace("{{alert_block}}", alert_block)
         .replace("{{week_price_rows}}", price_rows)
-        .replace("{{sonia_avg}}", str(sonia_avg))
+        .replace("{{sonia_avg}}", str(sonia_avg) if sonia_avg is not None else "N/A")
         .replace("{{week_alerts_summary}}", alerts_summary)
         .replace("{{next_fsr_date}}", boe.get("next_fsr_date", "TBC"))
         .replace("{{next_ccyb_decision}}", boe.get("next_ccyb_decision", "TBC"))
