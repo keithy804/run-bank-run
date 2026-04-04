@@ -1,0 +1,17 @@
+{
+  "updated_at": "2026-03-31T07:00:00Z",
+  "prices": {
+    "BARC.L": {"name":"Barclays","price":210.5,"change_pct_1d":-0.8,"change_pct_5d":-2.1,"change_pct_30d":5.3,"week_52_high":280.0,"week_52_low":160.0,"history_90d":[208,209,210.5],"status":"green"},
+    "LLOY.L": {"name":"Lloyds","price":55.2,"change_pct_1d":0.2,"change_pct_5d":0.8,"change_pct_30d":3.1,"week_52_high":65.0,"week_52_low":42.0,"history_90d":[54.8,55.0,55.2],"status":"green"},
+    "NWG.L":  {"name":"NatWest","price":380.0,"change_pct_1d":-0.1,"change_pct_5d":-1.2,"change_pct_30d":4.2,"week_52_high":420.0,"week_52_low":280.0,"history_90d":[381,380.5,380.0],"status":"green"},
+    "HSBA.L": {"name":"HSBC","price":720.0,"change_pct_1d":-4.9,"change_pct_5d":-8.0,"change_pct_30d":-2.0,"week_52_high":810.0,"week_52_low":580.0,"history_90d":[750,735,720.0],"status":"amber"}
+  },
+  "sonia": {"rate":5.19,"change_1d":0.01,"history_90d":[5.18,5.185,5.19],"status":"green"},
+  "news": [
+    {"title":"Bank of England holds rates steady","source":"BBC Business","url":"https://bbc.co.uk/","published_at":"Mon, 31 Mar 2026 06:00:00 +0000"},
+    {"title":"HSBC shares under pressure amid global concerns","source":"Reuters","url":"https://reuters.com/","published_at":"Mon, 31 Mar 2026 05:30:00 +0000"}
+  ],
+  "boe": {"ccyb_rate":2.0,"next_fsr_date":"Nov 2026","next_ccyb_decision":"Q2 2026","recent_announcements":[]},
+  "alerts": [],
+  "overall_status": "green"
+}
