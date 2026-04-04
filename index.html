@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UK Bank Stability Monitor</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --green: #1a7a1a; --amber: #b36200; --red: #c0392b; --error: #888;
+    --bg: #f5f5f5; --card-bg: #fff; --text: #1a1a1a; --muted: #666;
+    --border: #ddd;
+  }
+  * { box-sizing: border-box; }
+  body { font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 1.6;
+         background: var(--bg); color: var(--text); margin: 0; padding: 0; }
+  header { background: #1a2740; color: #fff; padding: 16px 20px; }
+  header h1 { margin: 0; font-size: 20px; }
+  header p  { margin: 2px 0 0; font-size: 13px; opacity: 0.8; }
+  .stale-warning { background: #b36200; color: #fff; text-align: center;
+                   padding: 10px; font-weight: bold; display: none; }
+  #alert-banner { background: var(--red); color: #fff; padding: 12px 20px;
+                  font-size: 15px; font-weight: bold; display: none; }
+  #alert-banner ul { margin: 6px 0 0; padding-left: 20px; }
+  main { max-width: 900px; margin: 0 auto; padding: 20px 16px; }
+  section { background: var(--card-bg); border: 1px solid var(--border);
+            border-radius: 8px; padding: 20px; margin-bottom: 20px; }
+  h2 { font-size: 17px; margin: 0 0 14px; padding-bottom: 6px;
+       border-bottom: 2px solid var(--border); }
+  .bank-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  @media (min-width: 640px) { .bank-grid { grid-template-columns: repeat(4, 1fr); } }
+  .bank-card { border: 2px solid var(--border); border-radius: 8px; padding: 14px 12px; }
+  .bank-card.green { border-color: var(--green); }
+  .bank-card.amber { border-color: var(--amber); }
+  .bank-card.red   { border-color: var(--red); }
+  .bank-card .name { font-weight: bold; font-size: 15px; }
+  .bank-card .price { font-size: 22px; font-weight: bold; margin: 4px 0; }
+  .bank-card .change { font-size: 14px; }
+  .bank-card .change.up   { color: var(--green); }
+  .bank-card .change.down { color: var(--red); }
+  .bank-card .status-icon { font-size: 18px; float: right; }
+  .toggle-group { margin-bottom: 12px; }
+  .toggle-group button { padding: 5px 12px; margin-right: 6px; border: 1px solid var(--border);
+                         background: #fff; border-radius: 4px; cursor: pointer; font-size: 14px; }
+  .toggle-group button.active { background: #1a2740; color: #fff; border-color: #1a2740; }
+  canvas { max-height: 260px; }
+  .headlines li { margin-bottom: 10px; }
+  .headlines a { color: #1a56a0; text-decoration: none; font-size: 15px; }
+  .headlines a:hover { text-decoration: underline; }
+  .source-tag { font-size: 12px; color: var(--muted); margin-left: 6px;
+                background: #eee; padding: 1px 6px; border-radius: 10px; }
+  .boe-footer { font-size: 14px; color: var(--muted); }
+  footer { text-align: center; font-size: 12px; color: var(--muted); padding: 20px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🏦 UK Bank Stability Monitor</h1>
+  <p id="last-updated">Loading...</p>
+</header>
+
+<div class="stale-warning" id="stale-warning">
+  ⚠ Data may be stale — last update was over 48 hours ago
+</div>
+
+<div id="alert-banner"></div>
+
+<main>
+  <!-- Bank status cards -->
+  <section>
+    <h2>Bank Status</h2>
+    <div class="bank-grid" id="bank-cards">Loading...</div>
+  </section>
+
+  <!-- Share price chart -->
+  <section>
+    <h2>Share Prices</h2>
+    <div class="toggle-group">
+      <button class="active" onclick="setRange('prices', 7, this)">7d</button>
+      <button onclick="setRange('prices', 30, this)">30d</button>
+      <button onclick="setRange('prices', 90, this)">90d</button>
+    </div>
+    <canvas id="prices-chart"></canvas>
+  </section>
+
+  <!-- SONIA chart -->
+  <section>
+    <h2>SONIA Rate</h2>
+    <canvas id="sonia-chart"></canvas>
+  </section>
+
+  <!-- Headlines -->
+  <section>
+    <h2>Latest Headlines</h2>
+    <ul class="headlines" id="headlines">Loading...</ul>
+  </section>
+
+  <!-- BoE footer -->
+  <section>
+    <h2>Bank of England</h2>
+    <div class="boe-footer" id="boe-info">Loading...</div>
+  </section>
+</main>
+
+<footer>Run Bank Run — personal monitor · Data from Yahoo Finance, BoE, RSS</footer>
+
+<script>
+const BANK_COLOURS = {
+  "BARC.L": "#1f77b4", "LLOY.L": "#ff7f0e",
+  "NWG.L":  "#2ca02c", "HSBA.L": "#d62728"
+};
+const STATUS_ICON = { green: "🟢", amber: "🟡", red: "🔴", error: "⚪" };
+
+let data = null;
+let pricesChart = null;
+let soniaChart = null;
+
+async function loadData() {
+  const resp = await fetch("data/latest.json?_=" + Date.now());
+  data = await resp.json();
+  render();
+}
+
+function render() {
+  renderHeader();
+  renderAlertBanner();
+  renderBankCards();
+  renderPricesChart(30);
+  renderSoniaChart();
+  renderHeadlines();
+  renderBoE();
+}
+
+function renderHeader() {
+  const dt = new Date(data.updated_at);
+  const dd = String(dt.getUTCDate()).padStart(2,'0');
+  const mm = String(dt.getUTCMonth()+1).padStart(2,'0');
+  const yy = String(dt.getUTCFullYear()).slice(-2);
+  const hh = String(dt.getUTCHours()).padStart(2,'0');
+  const mn = String(dt.getUTCMinutes()).padStart(2,'0');
+  document.getElementById("last-updated").textContent =
+    `Last updated: ${dd}/${mm}/${yy} ${hh}:${mn} UTC`;
+
+  const ageHours = (Date.now() - dt.getTime()) / 3600000;
+  if (ageHours > 48) {
+    document.getElementById("stale-warning").style.display = "block";
+  }
+}
+
+function renderAlertBanner() {
+  const alerts = data.alerts || [];
+  const banner = document.getElementById("alert-banner");
+  if (!alerts.length) return;
+  banner.style.display = "block";
+  banner.innerHTML = `⚠ ${alerts.length} Alert${alerts.length > 1 ? 's' : ''}<ul>`
+    + alerts.map(a => `<li>${a.message}</li>`).join("") + "</ul>";
+}
+
+function renderBankCards() {
+  const container = document.getElementById("bank-cards");
+  container.innerHTML = "";
+  for (const [sym, bank] of Object.entries(data.prices)) {
+    const status = bank.status || "error";
+    const change = bank.change_pct_1d ?? 0;
+    const dir = change >= 0 ? "▲" : "▼";
+    const dirClass = change >= 0 ? "up" : "down";
+    const price = bank.price != null ? bank.price.toFixed(2) + "p" : "N/A";
+    container.innerHTML += `
+      <div class="bank-card ${status}">
+        <span class="status-icon">${STATUS_ICON[status] || "⚪"}</span>
+        <div class="name">${bank.name}</div>
+        <div class="price">${price}</div>
+        <div class="change ${dirClass}">${dir} ${Math.abs(change).toFixed(2)}% today</div>
+      </div>`;
+  }
+}
+
+function setRange(type, days, btn) {
+  document.querySelectorAll(`.toggle-group button`).forEach(b => b.classList.remove("active"));
+  btn.classList.add("active");
+  if (type === "prices") renderPricesChart(days);
+}
+
+function renderPricesChart(days) {
+  const ctx = document.getElementById("prices-chart");
+  if (pricesChart) pricesChart.destroy();
+  const datasets = Object.entries(data.prices).map(([sym, bank]) => {
+    const hist = (bank.history_90d || []).slice(-days);
+    return { label: bank.name, data: hist, borderColor: BANK_COLOURS[sym],
+             backgroundColor: "transparent", borderWidth: 2, pointRadius: 0, tension: 0.3 };
+  });
+  const labels = datasets[0]?.data.map((_, i) => `-${datasets[0].data.length - 1 - i}d`) || [];
+  pricesChart = new Chart(ctx, {
+    type: "line",
+    data: { labels, datasets },
+    options: {
+      animation: false,
+      plugins: { legend: { position: "bottom" } },
+      scales: {
+        y: { title: { display: true, text: "Price (p)" } },
+        x: { ticks: { maxTicksLimit: 8 } }
+      }
+    }
+  });
+}
+
+function renderSoniaChart() {
+  const ctx = document.getElementById("sonia-chart");
+  if (soniaChart) soniaChart.destroy();
+  const hist = data.sonia?.history_90d?.slice(-30) || [];
+  const labels = hist.map((_, i) => `-${hist.length - 1 - i}d`);
+  soniaChart = new Chart(ctx, {
+    type: "line",
+    data: {
+      labels,
+      datasets: [{ label: "SONIA %", data: hist, borderColor: "#1a2740",
+                   backgroundColor: "rgba(26,39,64,0.08)", borderWidth: 2,
+                   pointRadius: 0, tension: 0.3, fill: true }]
+    },
+    options: {
+      animation: false,
+      scales: {
+        y: { title: { display: true, text: "Rate (%)" } },
+        x: { ticks: { maxTicksLimit: 8 } }
+      }
+    }
+  });
+}
+
+function renderHeadlines() {
+  const list = document.getElementById("headlines");
+  const news = data.news || [];
+  if (!news.length) { list.innerHTML = "<li>No recent headlines found.</li>"; return; }
+  list.innerHTML = news.map(item =>
+    `<li><a href="${item.url}" target="_blank" rel="noopener">${item.title}</a>
+     <span class="source-tag">${item.source}</span></li>`
+  ).join("");
+}
+
+function renderBoE() {
+  const boe = data.boe || {};
+  const el = document.getElementById("boe-info");
+  el.innerHTML = `
+    <p><strong>CCyB Rate:</strong> ${boe.ccyb_rate ?? "N/A"}%
+       &nbsp;·&nbsp; <strong>Next FSR:</strong> ${boe.next_fsr_date ?? "TBC"}
+       &nbsp;·&nbsp; <strong>CCyB Decision:</strong> ${boe.next_ccyb_decision ?? "TBC"}</p>
+    ${(boe.recent_announcements || []).length ?
+      "<p><strong>Recent BoE Announcements:</strong></p><ul>" +
+      boe.recent_announcements.map(a =>
+        `<li><a href="${a.url}" target="_blank">${a.title}</a></li>`
+      ).join("") + "</ul>" : ""}
+  `;
+}
+
+loadData().catch(err => {
+  document.getElementById("last-updated").textContent = "Failed to load data";
+  console.error(err);
+});
+</script>
+</body>
+</html>
