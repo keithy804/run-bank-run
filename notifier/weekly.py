@@ -135,7 +135,7 @@ def send_weekly_email() -> None:
 
     resend.api_key = RESEND_API_KEY
     resend.Emails.send({
-        "from": "Bank Monitor <monitor@updates.run-bank-run.com>",
+        "from": "Bank Monitor <onboarding@resend.dev>",
         "to": EMAIL_TO,
         "subject": build_subject(),
         "html": build_weekly_html(data),

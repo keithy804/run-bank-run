@@ -93,7 +93,7 @@ def send_daily_email(snapshot: dict) -> None:
 
     resend.api_key = RESEND_API_KEY
     resend.Emails.send({
-        "from": "Bank Monitor <monitor@updates.run-bank-run.com>",
+        "from": "Bank Monitor <onboarding@resend.dev>",
         "to": EMAIL_TO,
         "subject": build_subject(snapshot),
         "html": build_daily_html(snapshot),
