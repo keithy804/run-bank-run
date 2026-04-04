@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body { font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 1.6;
+         color: #1a1a1a; background: #ffffff; margin: 0; padding: 0; }
+  .wrap { max-width: 600px; margin: 0 auto; padding: 24px 16px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .ts { font-size: 13px; color: #666; margin-bottom: 20px; }
+  .alerts { background: #c0392b; color: #fff; padding: 12px 16px;
+            border-radius: 6px; margin-bottom: 20px; font-weight: bold; }
+  .alerts ul { margin: 8px 0 0; padding-left: 20px; }
+  h2 { font-size: 17px; border-bottom: 2px solid #eee; padding-bottom: 4px; margin-top: 24px; }
+  .banks { width: 100%; border-collapse: collapse; }
+  .banks td { padding: 8px 6px; font-size: 15px; }
+  .banks tr:nth-child(even) { background: #f7f7f7; }
+  .green { color: #1a7a1a; font-weight: bold; }
+  .amber { color: #b36200; font-weight: bold; }
+  .red   { color: #c0392b; font-weight: bold; }
+  .error { color: #888; }
+  .footer { margin-top: 28px; font-size: 13px; color: #888; }
+  .cta { display: inline-block; margin-top: 16px; padding: 10px 20px;
+         background: #1a56a0; color: #fff; text-decoration: none;
+         border-radius: 4px; font-size: 15px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>UK Bank Monitor — Weekly Summary</h1>
+  <p class="ts">Week of {{week_start}} &nbsp;·&nbsp; {{updated_display}}</p>
+
+  {{alert_block}}
+
+  <h2>Week-over-Week Price Changes</h2>
+  <table class="banks">{{week_price_rows}}</table>
+
+  <h2>SONIA</h2>
+  <p>Weekly average: <strong>{{sonia_avg}}%</strong></p>
+
+  <h2>Alerts This Week</h2>
+  <p>{{week_alerts_summary}}</p>
+
+  <h2>Upcoming BoE Events</h2>
+  <ul>
+    <li>Financial Stability Report: {{next_fsr_date}}</li>
+    <li>CCyB decision: {{next_ccyb_decision}}</li>
+  </ul>
+
+  <h2>Summary</h2>
+  <p>{{plain_english}}</p>
+
+  <a class="cta" href="{{dashboard_url}}">Open Dashboard</a>
+
+  <p class="footer">Run Bank Run — automated monitor</p>
+</div>
+</body>
+</html>
