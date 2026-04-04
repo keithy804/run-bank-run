@@ -33,3 +33,6 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           DASHBOARD_URL: ${{ secrets.DASHBOARD_URL }}
         run: python orchestrator.py
+
+      - name: Validate collected data
+        run: pytest tests/test_data_quality.py -v
