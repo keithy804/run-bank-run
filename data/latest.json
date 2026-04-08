@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-04-07T07:35:19Z",
+  "updated_at": "2026-04-08T07:36:11Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 410.3,
-      "change_pct_1d": 0.38,
-      "change_pct_5d": 7.35,
-      "change_pct_30d": -13.4,
+      "price": 437.92,
+      "change_pct_1d": 7.92,
+      "change_pct_5d": 13.78,
+      "change_pct_30d": -5.42,
       "week_52_high": 507.45,
       "week_52_low": 238.55,
       "history_90d": [
-        479.49,
         484.64,
         484.84,
         473.0,
@@ -72,20 +71,20 @@
         389.45,
         409.1,
         408.75,
-        410.3
+        405.8,
+        437.92
       ],
-      "status": "green"
+      "status": "red"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 97.69,
-      "change_pct_1d": -0.26,
-      "change_pct_5d": 8.02,
-      "change_pct_30d": -6.2,
+      "price": 102.92,
+      "change_pct_1d": 7.51,
+      "change_pct_5d": 12.75,
+      "change_pct_30d": -0.85,
       "week_52_high": 114.6,
       "week_52_low": 63.538,
       "history_90d": [
-        98.9,
         100.05,
         100.3,
         101.0,
@@ -147,20 +146,20 @@
         92.34,
         97.7,
         97.94,
-        97.69
+        95.73,
+        102.92
       ],
-      "status": "green"
+      "status": "red"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 577.8,
-      "change_pct_1d": 0.42,
-      "change_pct_5d": 7.04,
-      "change_pct_30d": -6.1,
+      "price": 607.2,
+      "change_pct_1d": 6.71,
+      "change_pct_5d": 11.33,
+      "change_pct_30d": -0.48,
       "week_52_high": 705.4,
       "week_52_low": 404.9,
       "history_90d": [
-        632.15,
         643.94,
         642.35,
         639.95,
@@ -222,20 +221,20 @@
         553.2,
         583.2,
         575.4,
-        577.8
+        569.0,
+        607.2
       ],
-      "status": "green"
+      "status": "red"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1275.8,
-      "change_pct_1d": 0.24,
-      "change_pct_5d": 6.32,
-      "change_pct_30d": -1.07,
+      "price": 1323.4,
+      "change_pct_1d": 4.32,
+      "change_pct_5d": 9.19,
+      "change_pct_30d": 2.4,
       "week_52_high": 1410.6,
       "week_52_low": 698.7,
       "history_90d": [
-        1190.38,
         1194.98,
         1193.78,
         1201.97,
@@ -297,9 +296,10 @@
         1221.6,
         1286.6,
         1272.8,
-        1275.8
+        1268.6,
+        1323.4
       ],
-      "status": "green"
+      "status": "amber"
     }
   },
   "sonia": {
@@ -310,10 +310,22 @@
   },
   "news": [
     {
+      "title": "Foodbank hub set to expand to meet growing demand",
+      "url": "https://www.bbc.com/news/articles/cy01k55ygl7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "published_at": "Wed, 08 Apr 2026 05:09:56 GMT"
+    },
+    {
       "title": "The Bank of England\u2019s approach to using its requirements and permissions powers to facilitate mobilisation of new CCPs",
       "url": "https://www.bankofengland.co.uk/paper/2026/cp/boe-approach-to-using-requirements-and-permissions-powers-to-facilitate-mobilisation-of-new-ccps",
       "source": "Bank of England",
       "published_at": "Wed, 04 Mar 2026 10:00:00 Z"
+    },
+    {
+      "title": "Neighbour plan to help food bank expand",
+      "url": "https://www.bbc.com/news/articles/cvgek74l49do?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "published_at": "Tue, 07 Apr 2026 12:51:33 GMT"
     },
     {
       "title": "Bank of England Weekly Report 28 January 2026",
@@ -356,18 +368,6 @@
       "url": "https://www.bankofengland.co.uk/paper/2026/ps/the-boes-fees-regime-for-fmi-supervision-2025-26",
       "source": "Bank of England",
       "published_at": "Thu, 19 Feb 2026 12:00:00 Z"
-    },
-    {
-      "title": "Bank of England Weekly Report 14  January 2026",
-      "url": "https://www.bankofengland.co.uk/weekly-report/2026/14-january-2026",
-      "source": "Bank of England",
-      "published_at": "Thu, 15 Jan 2026 15:00:00 Z"
-    },
-    {
-      "title": "Bank of England Weekly Report 11 March 2026",
-      "url": "https://www.bankofengland.co.uk/weekly-report/2026/11-march-2026",
-      "source": "Bank of England",
-      "published_at": "Thu, 12 Mar 2026 15:00:00 Z"
     }
   ],
   "boe": {
