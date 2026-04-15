@@ -1,0 +1,60 @@
+{
+  "date": "150426",
+  "updated_at": "2026-04-15T07:36:59Z",
+  "prices": {
+    "BARC.L": {
+      "name": "Barclays",
+      "price": null,
+      "change_pct_1d": null,
+      "change_pct_5d": null,
+      "change_pct_30d": null,
+      "week_52_high": null,
+      "week_52_low": null,
+      "status": "error"
+    },
+    "LLOY.L": {
+      "name": "Lloyds",
+      "price": null,
+      "change_pct_1d": null,
+      "change_pct_5d": null,
+      "change_pct_30d": null,
+      "week_52_high": null,
+      "week_52_low": null,
+      "status": "error"
+    },
+    "NWG.L": {
+      "name": "NatWest",
+      "price": null,
+      "change_pct_1d": null,
+      "change_pct_5d": null,
+      "change_pct_30d": null,
+      "week_52_high": null,
+      "week_52_low": null,
+      "status": "error"
+    },
+    "HSBA.L": {
+      "name": "HSBC",
+      "price": null,
+      "change_pct_1d": null,
+      "change_pct_5d": null,
+      "change_pct_30d": null,
+      "week_52_high": null,
+      "week_52_low": null,
+      "status": "error"
+    }
+  },
+  "sonia": {
+    "rate": null,
+    "change_1d": null,
+    "status": "error"
+  },
+  "alerts": [
+    {
+      "type": "news_cluster",
+      "bank": null,
+      "severity": "amber",
+      "message": "10 banking-related headlines today"
+    }
+  ],
+  "overall_status": "amber"
+}
