@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-04-16T07:36:51Z",
+  "updated_at": "2026-04-17T07:37:03Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 444.7,
-      "change_pct_1d": 0.87,
-      "change_pct_5d": 2.6,
-      "change_pct_30d": 5.24,
+      "price": 437.25,
+      "change_pct_1d": -0.08,
+      "change_pct_5d": -0.85,
+      "change_pct_30d": 1.54,
       "week_52_high": 507.45,
-      "week_52_low": 274.15,
+      "week_52_low": 275.35,
       "history_90d": [
-        488.89,
         482.94,
         479.54,
         475.55,
@@ -72,20 +71,20 @@
         435.0,
         442.95,
         440.85,
-        444.7
+        437.6,
+        437.25
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 103.67,
-      "change_pct_1d": 0.38,
-      "change_pct_5d": 3.03,
-      "change_pct_30d": 6.97,
+      "price": 102.9,
+      "change_pct_1d": 0.04,
+      "change_pct_5d": 1.98,
+      "change_pct_30d": 4.73,
       "week_52_high": 114.6,
-      "week_52_low": 66.94,
+      "week_52_low": 69.7,
       "history_90d": [
-        102.08,
         102.28,
         102.38,
         101.38,
@@ -147,20 +146,20 @@
         100.66,
         103.0,
         103.28,
-        103.67
+        102.86,
+        102.9
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 624.8,
-      "change_pct_1d": 0.35,
-      "change_pct_5d": 3.24,
-      "change_pct_30d": 6.63,
+      "price": 615.0,
+      "change_pct_1d": -0.19,
+      "change_pct_5d": 0.1,
+      "change_pct_30d": 3.44,
       "week_52_high": 705.4,
       "week_52_low": 452.9,
       "history_90d": [
-        652.54,
         645.74,
         651.54,
         649.34,
@@ -222,20 +221,20 @@
         612.6,
         627.8,
         622.6,
-        624.8
+        616.2,
+        615.0
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1343.2,
-      "change_pct_1d": 0.28,
-      "change_pct_5d": 0.72,
-      "change_pct_30d": 6.4,
+      "price": 1336.2,
+      "change_pct_1d": -0.15,
+      "change_pct_5d": -0.3,
+      "change_pct_30d": 3.51,
       "week_52_high": 1410.6,
-      "week_52_low": 15.197,
+      "week_52_low": 788.0,
       "history_90d": [
-        1231.56,
         1238.36,
         1228.57,
         1230.56,
@@ -297,7 +296,8 @@
         1332.4,
         1344.8,
         1339.4,
-        1343.2
+        1338.2,
+        1336.2
       ],
       "status": "green"
     }
@@ -314,12 +314,6 @@
       "url": "https://www.bankofengland.co.uk/paper/2026/cp/boe-approach-to-using-requirements-and-permissions-powers-to-facilitate-mobilisation-of-new-ccps",
       "source": "Bank of England",
       "published_at": "Wed, 04 Mar 2026 10:00:00 Z"
-    },
-    {
-      "title": "Bank of England Weekly Report 28 January 2026",
-      "url": "https://www.bankofengland.co.uk/weekly-report/2026/28-january-2026",
-      "source": "Bank of England",
-      "published_at": "Thu, 29 Jan 2026 15:00:00 Z"
     },
     {
       "title": "Bank of England Weekly Report 25 March 2026",
@@ -350,6 +344,12 @@
       "url": "https://www.bankofengland.co.uk/paper/2026/ps/the-boes-fees-regime-for-fmi-supervision-2025-26",
       "source": "Bank of England",
       "published_at": "Thu, 19 Feb 2026 12:00:00 Z"
+    },
+    {
+      "title": "Bank of England Weekly Report 15 April 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/15-april-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 16 Apr 2026 15:00:00 +0100"
     },
     {
       "title": "Big energy shock will push up prices, Bank boss tells BBC",
