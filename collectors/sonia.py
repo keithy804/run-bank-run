@@ -12,7 +12,8 @@ BOE_SONIA_URL = (
 
 def fetch_sonia() -> dict:
     try:
-        resp = requests.get(BOE_SONIA_URL, timeout=30)
+        headers = {"User-Agent": "Mozilla/5.0 (compatible; bank-monitor/1.0)"}
+        resp = requests.get(BOE_SONIA_URL, headers=headers, timeout=30)
         resp.raise_for_status()
 
         rows = []
