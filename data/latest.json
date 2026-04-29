@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-04-28T07:50:00Z",
+  "updated_at": "2026-04-29T07:46:23Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 414.6,
-      "change_pct_1d": -2.99,
-      "change_pct_5d": -5.31,
-      "change_pct_30d": 7.34,
+      "price": 428.0,
+      "change_pct_1d": 0.34,
+      "change_pct_5d": -1.44,
+      "change_pct_30d": 10.27,
       "week_52_high": 507.45,
       "week_52_low": 287.916,
       "history_90d": [
-        479.74,
         479.54,
         486.14,
         499.49,
@@ -72,20 +71,20 @@
         427.8,
         424.1,
         427.4,
-        414.6
+        426.55,
+        428.0
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 97.4,
-      "change_pct_1d": -0.1,
-      "change_pct_5d": -3.2,
-      "change_pct_30d": 3.44,
+      "price": 98.18,
+      "change_pct_1d": -0.4,
+      "change_pct_5d": -2.07,
+      "change_pct_30d": 3.48,
       "week_52_high": 114.6,
       "week_52_low": 69.7,
       "history_90d": [
-        104.48,
         105.42,
         108.92,
         111.42,
@@ -147,20 +146,20 @@
         98.88,
         97.77,
         97.5,
-        97.4
+        98.57,
+        98.18
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 575.0,
-      "change_pct_1d": 0.24,
-      "change_pct_5d": -4.42,
-      "change_pct_30d": 1.77,
+      "price": 577.38,
+      "change_pct_1d": -0.04,
+      "change_pct_5d": -2.54,
+      "change_pct_30d": 0.73,
       "week_52_high": 705.4,
       "week_52_low": 460.4,
       "history_90d": [
-        656.94,
         653.14,
         664.94,
         683.73,
@@ -222,20 +221,20 @@
         584.6,
         579.4,
         573.6,
-        575.0
+        577.6,
+        577.38
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1329.6,
-      "change_pct_1d": 0.71,
-      "change_pct_5d": -1.85,
-      "change_pct_30d": 11.19,
+      "price": 1334.59,
+      "change_pct_1d": 0.18,
+      "change_pct_5d": -0.58,
+      "change_pct_30d": 13.06,
       "week_52_high": 1410.6,
       "week_52_low": 821.5,
       "history_90d": [
-        1258.27,
         1269.67,
         1285.06,
         1304.66,
@@ -296,16 +295,16 @@
         1338.0,
         1321.0,
         1320.2,
-        1329.6
+        1332.2,
+        1334.59
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.7311,
-    "change_1d": 0.0007,
+    "rate": 3.7305,
+    "change_1d": -0.0006,
     "history_90d": [
-      3.9743,
       3.9746,
       3.9748,
       3.9749,
@@ -394,7 +393,8 @@
       3.7304,
       3.7307,
       3.7304,
-      3.7311
+      3.7311,
+      3.7305
     ],
     "status": "green"
   },
