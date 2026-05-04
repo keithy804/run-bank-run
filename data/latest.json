@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-01T07:47:53Z",
+  "updated_at": "2026-05-04T07:59:20Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 428.15,
-      "change_pct_1d": -0.76,
-      "change_pct_5d": 0.95,
-      "change_pct_30d": 7.29,
+      "price": 433.75,
+      "change_pct_1d": 0.53,
+      "change_pct_5d": 2.28,
+      "change_pct_30d": 8.7,
       "week_52_high": 507.45,
       "week_52_low": 292.3,
       "history_90d": [
@@ -72,18 +72,18 @@
         426.55,
         431.0,
         431.45,
-        428.15
+        433.75
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 98.21,
-      "change_pct_1d": -1.48,
-      "change_pct_5d": 0.45,
-      "change_pct_30d": 1.75,
+      "price": 98.24,
+      "change_pct_1d": -1.45,
+      "change_pct_5d": 0.48,
+      "change_pct_30d": 1.79,
       "week_52_high": 114.6,
-      "week_52_low": 69.7,
+      "week_52_low": 70.58,
       "history_90d": [
         111.42,
         112.57,
@@ -147,18 +147,18 @@
         98.57,
         97.05,
         99.69,
-        98.21
+        98.24
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 562.72,
-      "change_pct_1d": -3.84,
-      "change_pct_5d": -2.88,
-      "change_pct_30d": -2.94,
+      "price": 565.6,
+      "change_pct_1d": -3.35,
+      "change_pct_5d": -2.38,
+      "change_pct_30d": -2.44,
       "week_52_high": 705.4,
-      "week_52_low": 468.0,
+      "week_52_low": 471.0,
       "history_90d": [
         683.73,
         693.92,
@@ -222,18 +222,18 @@
         577.6,
         569.0,
         585.2,
-        562.72
+        565.6
       ],
-      "status": "amber"
+      "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1341.6,
-      "change_pct_1d": -0.55,
-      "change_pct_5d": 1.56,
-      "change_pct_30d": 11.13,
+      "price": 1359.4,
+      "change_pct_1d": 0.77,
+      "change_pct_5d": 2.91,
+      "change_pct_30d": 12.61,
       "week_52_high": 1410.6,
-      "week_52_low": 829.8,
+      "week_52_low": 833.4,
       "history_90d": [
         1304.66,
         1300.66,
@@ -296,16 +296,15 @@
         1332.2,
         1331.0,
         1349.0,
-        1341.6
+        1359.4
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.7306,
-    "change_1d": -0.0001,
+    "rate": 3.7298,
+    "change_1d": -0.0008,
     "history_90d": [
-      3.9749,
       3.7264,
       3.7236,
       3.7231,
@@ -394,7 +393,8 @@
       3.7311,
       3.7305,
       3.7307,
-      3.7306
+      3.7306,
+      3.7298
     ],
     "status": "green"
   },
@@ -410,24 +410,6 @@
       "url": "https://www.bankofengland.co.uk/paper/2026/cp/boe-approach-to-using-requirements-and-permissions-powers-to-facilitate-mobilisation-of-new-ccps",
       "source": "Bank of England",
       "published_at": "Wed, 04 Mar 2026 10:00:00 Z"
-    },
-    {
-      "title": "Mortgages, bills and jobs: Five takeaways from the Bank of England",
-      "url": "https://www.bbc.com/news/articles/cg4pqe1zzgqo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "published_at": "Thu, 30 Apr 2026 16:00:21 GMT"
-    },
-    {
-      "title": "Bank of England says rates could rise as Iran war fuels inflation",
-      "url": "https://www.bbc.com/news/articles/cg7p89mp2rjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "published_at": "Thu, 30 Apr 2026 15:02:26 GMT"
-    },
-    {
-      "title": "Bank of England says rates could rise as Iran war fuels inflation",
-      "url": "https://www.bbc.com/news/articles/cg7p89mp2rjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "published_at": "Thu, 30 Apr 2026 15:02:26 GMT"
     },
     {
       "title": "Bank of England Weekly Report 29 April 2026",
@@ -458,6 +440,24 @@
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/18-march-2026",
       "source": "Bank of England",
       "published_at": "Thu, 19 Mar 2026 15:00:00 Z"
+    },
+    {
+      "title": "Bank of England Weekly Report 18 February 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/18-february-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 19 Feb 2026 15:00:00 Z"
+    },
+    {
+      "title": "The Bank of England\u2019s fees regime for financial market infrastructure supervision 2025/26",
+      "url": "https://www.bankofengland.co.uk/paper/2026/ps/the-boes-fees-regime-for-fmi-supervision-2025-26",
+      "source": "Bank of England",
+      "published_at": "Thu, 19 Feb 2026 12:00:00 Z"
+    },
+    {
+      "title": "Bank of England Weekly Report 15 April 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/15-april-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 16 Apr 2026 15:00:00 +0100"
     }
   ],
   "boe": {
