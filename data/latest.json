@@ -1,18 +1,15 @@
 {
-  "updated_at": "2026-05-04T07:59:20Z",
+  "updated_at": "2026-05-05T07:42:08Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 433.75,
-      "change_pct_1d": 0.53,
-      "change_pct_5d": 2.28,
-      "change_pct_30d": 8.7,
+      "price": 424.5,
+      "change_pct_1d": -2.13,
+      "change_pct_5d": -0.68,
+      "change_pct_30d": 11.24,
       "week_52_high": 507.45,
       "week_52_low": 292.3,
       "history_90d": [
-        499.49,
-        501.54,
-        483.19,
         466.4,
         479.04,
         486.49,
@@ -72,22 +69,20 @@
         426.55,
         431.0,
         431.45,
-        433.75
+        433.75,
+        424.5
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 98.24,
-      "change_pct_1d": -1.45,
-      "change_pct_5d": 0.48,
-      "change_pct_30d": 1.79,
+      "price": 97.01,
+      "change_pct_1d": -1.25,
+      "change_pct_5d": -0.5,
+      "change_pct_30d": 4.58,
       "week_52_high": 114.6,
       "week_52_low": 70.58,
       "history_90d": [
-        111.42,
-        112.57,
-        112.02,
         105.77,
         106.72,
         105.22,
@@ -147,22 +142,20 @@
         98.57,
         97.05,
         99.69,
-        98.24
+        98.24,
+        97.01
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 565.6,
-      "change_pct_1d": -3.35,
-      "change_pct_5d": -2.38,
-      "change_pct_30d": -2.44,
+      "price": 556.4,
+      "change_pct_1d": -1.63,
+      "change_pct_5d": -3.0,
+      "change_pct_30d": 4.27,
       "week_52_high": 705.4,
       "week_52_low": 471.0,
       "history_90d": [
-        683.73,
-        693.92,
-        691.33,
         649.74,
         659.14,
         619.75,
@@ -222,22 +215,20 @@
         577.6,
         569.0,
         585.2,
-        565.6
+        565.6,
+        556.4
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1359.4,
-      "change_pct_1d": 0.77,
-      "change_pct_5d": 2.91,
-      "change_pct_30d": 12.61,
+      "price": 1285.8,
+      "change_pct_1d": -5.41,
+      "change_pct_5d": -2.61,
+      "change_pct_30d": 6.33,
       "week_52_high": 1410.6,
       "week_52_low": 833.4,
       "history_90d": [
-        1304.66,
-        1300.66,
-        1307.26,
         1277.27,
         1305.46,
         1318.45,
@@ -296,9 +287,10 @@
         1332.2,
         1331.0,
         1349.0,
-        1359.4
+        1359.4,
+        1285.8
       ],
-      "status": "green"
+      "status": "red"
     }
   },
   "sonia": {
@@ -468,11 +460,17 @@
   },
   "alerts": [
     {
+      "type": "price_drop_1d",
+      "bank": "HSBA.L",
+      "severity": "red",
+      "message": "HSBC dropped 5.4% today"
+    },
+    {
       "type": "news_cluster",
       "bank": null,
       "severity": "amber",
       "message": "10 banking-related headlines today"
     }
   ],
-  "overall_status": "amber"
+  "overall_status": "red"
 }
