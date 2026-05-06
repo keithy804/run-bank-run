@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-05-05T07:42:08Z",
+  "updated_at": "2026-05-06T07:51:10Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 424.5,
-      "change_pct_1d": -2.13,
-      "change_pct_5d": -0.68,
-      "change_pct_30d": 11.24,
+      "price": 431.6,
+      "change_pct_1d": 2.87,
+      "change_pct_5d": 1.18,
+      "change_pct_30d": 15.43,
       "week_52_high": 507.45,
-      "week_52_low": 292.3,
+      "week_52_low": 293.8,
       "history_90d": [
-        466.4,
         479.04,
         486.49,
         474.35,
@@ -70,20 +69,20 @@
         431.0,
         431.45,
         433.75,
-        424.5
+        419.55,
+        431.6
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 97.01,
-      "change_pct_1d": -1.25,
-      "change_pct_5d": -0.5,
-      "change_pct_30d": 4.58,
+      "price": 97.13,
+      "change_pct_1d": 2.35,
+      "change_pct_5d": -1.46,
+      "change_pct_30d": 7.02,
       "week_52_high": 114.6,
-      "week_52_low": 70.58,
+      "week_52_low": 70.8,
       "history_90d": [
-        105.77,
         106.72,
         105.22,
         102.78,
@@ -143,20 +142,20 @@
         97.05,
         99.69,
         98.24,
-        97.01
+        94.9,
+        97.13
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 556.4,
-      "change_pct_1d": -1.63,
-      "change_pct_5d": -3.0,
-      "change_pct_30d": 4.27,
+      "price": 565.56,
+      "change_pct_1d": 3.77,
+      "change_pct_5d": -2.08,
+      "change_pct_30d": 8.85,
       "week_52_high": 705.4,
       "week_52_low": 471.0,
       "history_90d": [
-        649.74,
         659.14,
         619.75,
         604.76,
@@ -216,20 +215,20 @@
         569.0,
         585.2,
         565.6,
-        556.4
+        545.0,
+        565.56
       ],
-      "status": "green"
+      "status": "amber"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1285.8,
-      "change_pct_1d": -5.41,
-      "change_pct_5d": -2.61,
-      "change_pct_30d": 6.33,
+      "price": 1318.4,
+      "change_pct_1d": 3.02,
+      "change_pct_5d": -1.04,
+      "change_pct_30d": 12.53,
       "week_52_high": 1410.6,
-      "week_52_low": 833.4,
+      "week_52_low": 835.3,
       "history_90d": [
-        1277.27,
         1305.46,
         1318.45,
         1305.66,
@@ -288,16 +287,16 @@
         1331.0,
         1349.0,
         1359.4,
-        1285.8
+        1279.8,
+        1318.4
       ],
-      "status": "red"
+      "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.7298,
-    "change_1d": -0.0008,
+    "rate": 3.7299,
+    "change_1d": 0.0001,
     "history_90d": [
-      3.7264,
       3.7236,
       3.7231,
       3.7248,
@@ -386,7 +385,8 @@
       3.7305,
       3.7307,
       3.7306,
-      3.7298
+      3.7298,
+      3.7299
     ],
     "status": "green"
   },
@@ -396,6 +396,12 @@
       "url": "https://www.bankofengland.co.uk/paper/2024/sop/the-bank-of-englands-approach-to-cost-benefit-analysis",
       "source": "Bank of England",
       "published_at": "Wed, 29 Apr 2026 09:30:00 +0100"
+    },
+    {
+      "title": "The baby bank helping struggling parents cope",
+      "url": "https://www.bbc.com/news/articles/c8d89rlg002o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "published_at": "Wed, 06 May 2026 05:12:27 GMT"
     },
     {
       "title": "The Bank of England\u2019s approach to using its requirements and permissions powers to facilitate mobilisation of new CCPs",
@@ -440,12 +446,6 @@
       "published_at": "Thu, 19 Feb 2026 15:00:00 Z"
     },
     {
-      "title": "The Bank of England\u2019s fees regime for financial market infrastructure supervision 2025/26",
-      "url": "https://www.bankofengland.co.uk/paper/2026/ps/the-boes-fees-regime-for-fmi-supervision-2025-26",
-      "source": "Bank of England",
-      "published_at": "Thu, 19 Feb 2026 12:00:00 Z"
-    },
-    {
       "title": "Bank of England Weekly Report 15 April 2026",
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/15-april-2026",
       "source": "Bank of England",
@@ -460,17 +460,11 @@
   },
   "alerts": [
     {
-      "type": "price_drop_1d",
-      "bank": "HSBA.L",
-      "severity": "red",
-      "message": "HSBC dropped 5.4% today"
-    },
-    {
       "type": "news_cluster",
       "bank": null,
       "severity": "amber",
       "message": "10 banking-related headlines today"
     }
   ],
-  "overall_status": "red"
+  "overall_status": "amber"
 }
