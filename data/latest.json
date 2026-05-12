@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-05-11T08:12:46Z",
+  "updated_at": "2026-05-12T07:59:50Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 436.6,
-      "change_pct_1d": 0.55,
-      "change_pct_5d": 0.66,
-      "change_pct_30d": 10.56,
+      "price": 414.41,
+      "change_pct_1d": -3.42,
+      "change_pct_5d": -1.22,
+      "change_pct_30d": 7.51,
       "week_52_high": 507.45,
       "week_52_low": 310.25,
       "history_90d": [
-        477.44,
         463.55,
         453.95,
         461.0,
@@ -70,20 +69,20 @@
         442.65,
         438.52,
         434.2,
-        436.6
+        429.1,
+        414.41
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 99.86,
-      "change_pct_1d": 0.92,
-      "change_pct_5d": 1.65,
-      "change_pct_30d": 4.74,
+      "price": 95.4,
+      "change_pct_1d": -2.99,
+      "change_pct_5d": 0.53,
+      "change_pct_30d": 3.36,
       "week_52_high": 114.6,
       "week_52_low": 71.7,
       "history_90d": [
-        103.03,
         102.38,
         100.38,
         101.38,
@@ -143,20 +142,20 @@
         99.46,
         97.97,
         98.95,
-        99.86
+        98.34,
+        95.4
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 589.0,
-      "change_pct_1d": 1.59,
-      "change_pct_5d": 4.14,
-      "change_pct_30d": 8.47,
+      "price": 561.4,
+      "change_pct_1d": -3.44,
+      "change_pct_5d": 3.01,
+      "change_pct_30d": 4.93,
       "week_52_high": 705.4,
       "week_52_low": 471.0,
       "history_90d": [
-        610.36,
         594.76,
         579.97,
         607.56,
@@ -216,20 +215,20 @@
         576.0,
         572.25,
         579.8,
-        589.0
+        581.4,
+        561.4
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1325.4,
-      "change_pct_1d": 0.76,
-      "change_pct_5d": -2.5,
-      "change_pct_30d": 12.19,
+      "price": 1316.0,
+      "change_pct_1d": -1.08,
+      "change_pct_5d": 2.83,
+      "change_pct_30d": 9.19,
       "week_52_high": 1410.6,
       "week_52_low": 847.0,
       "history_90d": [
-        1305.06,
         1266.27,
         1238.28,
         1250.87,
@@ -288,16 +287,16 @@
         1343.4,
         1335.4,
         1315.4,
-        1325.4
+        1330.4,
+        1316.0
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.7292,
-    "change_1d": 0.0001,
+    "rate": 3.7299,
+    "change_1d": 0.0007,
     "history_90d": [
-      3.725,
       3.7251,
       3.7254,
       3.7257,
@@ -386,7 +385,8 @@
       3.7299,
       3.7295,
       3.7291,
-      3.7292
+      3.7292,
+      3.7299
     ],
     "status": "green"
   },
@@ -402,6 +402,12 @@
       "url": "https://www.bankofengland.co.uk/paper/2026/cp/boe-approach-to-using-requirements-and-permissions-powers-to-facilitate-mobilisation-of-new-ccps",
       "source": "Bank of England",
       "published_at": "Wed, 04 Mar 2026 10:00:00 Z"
+    },
+    {
+      "title": "China should stop hoarding food and fertiliser, says former World Bank chief",
+      "url": "https://www.bbc.com/news/articles/cwy2rnyg50zo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "published_at": "Tue, 12 May 2026 03:40:29 GMT"
     },
     {
       "title": "Bank of England Weekly Report 29 April 2026",
@@ -444,12 +450,6 @@
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/11-march-2026",
       "source": "Bank of England",
       "published_at": "Thu, 12 Mar 2026 15:00:00 Z"
-    },
-    {
-      "title": "Bank of England Weekly Report 8 April 2026",
-      "url": "https://www.bankofengland.co.uk/weekly-report/2026/8-april-2026",
-      "source": "Bank of England",
-      "published_at": "Thu, 09 Apr 2026 15:00:00 +0100"
     }
   ],
   "boe": {
