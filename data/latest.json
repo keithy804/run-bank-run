@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-05-12T07:59:50Z",
+  "updated_at": "2026-05-13T08:02:04Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 414.41,
-      "change_pct_1d": -3.42,
-      "change_pct_5d": -1.22,
-      "change_pct_30d": 7.51,
+      "price": 421.35,
+      "change_pct_1d": 1.55,
+      "change_pct_5d": -4.81,
+      "change_pct_30d": 10.24,
       "week_52_high": 507.45,
-      "week_52_low": 310.25,
+      "week_52_low": 312.07,
       "history_90d": [
-        463.55,
         453.95,
         461.0,
         473.9,
@@ -70,20 +69,20 @@
         438.52,
         434.2,
         429.1,
-        414.41
+        414.9,
+        421.35
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 95.4,
-      "change_pct_1d": -2.99,
-      "change_pct_5d": 0.53,
-      "change_pct_30d": 3.36,
+      "price": 95.27,
+      "change_pct_1d": 1.29,
+      "change_pct_5d": -4.21,
+      "change_pct_30d": 5.37,
       "week_52_high": 114.6,
-      "week_52_low": 71.7,
+      "week_52_low": 72.851,
       "history_90d": [
-        102.38,
         100.38,
         101.38,
         102.73,
@@ -143,20 +142,20 @@
         97.97,
         98.95,
         98.34,
-        95.4
+        94.06,
+        95.27
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 561.4,
-      "change_pct_1d": -3.44,
-      "change_pct_5d": 3.01,
-      "change_pct_30d": 4.93,
+      "price": 566.8,
+      "change_pct_1d": 0.71,
+      "change_pct_5d": -1.6,
+      "change_pct_30d": 5.0,
       "week_52_high": 705.4,
       "week_52_low": 471.0,
       "history_90d": [
-        594.76,
         579.97,
         607.56,
         613.96,
@@ -216,20 +215,20 @@
         572.25,
         579.8,
         581.4,
-        561.4
+        562.8,
+        566.8
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1316.0,
-      "change_pct_1d": -1.08,
-      "change_pct_5d": 2.83,
-      "change_pct_30d": 9.19,
+      "price": 1334.2,
+      "change_pct_1d": 1.18,
+      "change_pct_5d": -0.68,
+      "change_pct_30d": 11.41,
       "week_52_high": 1410.6,
       "week_52_low": 847.0,
       "history_90d": [
-        1266.27,
         1238.28,
         1250.87,
         1269.87,
@@ -288,16 +287,16 @@
         1335.4,
         1315.4,
         1330.4,
-        1316.0
+        1318.6,
+        1334.2
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.7299,
-    "change_1d": 0.0007,
+    "rate": 3.7294,
+    "change_1d": -0.0005,
     "history_90d": [
-      3.7251,
       3.7254,
       3.7257,
       3.7263,
@@ -386,7 +385,8 @@
       3.7295,
       3.7291,
       3.7292,
-      3.7299
+      3.7299,
+      3.7294
     ],
     "status": "green"
   },
@@ -404,10 +404,16 @@
       "published_at": "Wed, 04 Mar 2026 10:00:00 Z"
     },
     {
+      "title": "Your voice 2026: insights from the Bank of England\u2019s outreach programmes",
+      "url": "https://www.bankofengland.co.uk/about/get-involved/citizens-panels/your-voice-2026-insights-from-the-boe-outreach-programmes",
+      "source": "Bank of England",
+      "published_at": "Tue, 12 May 2026 09:30:00 +0100"
+    },
+    {
       "title": "China should stop hoarding food and fertiliser, says former World Bank chief",
       "url": "https://www.bbc.com/news/articles/cwy2rnyg50zo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business",
-      "published_at": "Tue, 12 May 2026 03:40:29 GMT"
+      "published_at": "Tue, 12 May 2026 08:30:52 GMT"
     },
     {
       "title": "Bank of England Weekly Report 29 April 2026",
@@ -420,12 +426,6 @@
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/25-march-2026",
       "source": "Bank of England",
       "published_at": "Thu, 26 Mar 2026 15:00:00 Z"
-    },
-    {
-      "title": "Bank of England Weekly Report 25 February 2026",
-      "url": "https://www.bankofengland.co.uk/weekly-report/2026/25-february-2026",
-      "source": "Bank of England",
-      "published_at": "Thu, 26 Feb 2026 15:00:00 Z"
     },
     {
       "title": "Bank of England Weekly Report 22 April 2026",
