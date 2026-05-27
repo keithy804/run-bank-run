@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-05-26T08:16:28Z",
+  "updated_at": "2026-05-27T08:22:03Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 453.05,
-      "change_pct_1d": 1.63,
-      "change_pct_5d": 6.27,
-      "change_pct_30d": 2.73,
+      "price": 455.9,
+      "change_pct_1d": 0.52,
+      "change_pct_5d": 7.27,
+      "change_pct_30d": 4.8,
       "week_52_high": 507.45,
       "week_52_low": 315.5,
       "history_90d": [
-        472.65,
         452.85,
         437.35,
         422.55,
@@ -69,20 +68,20 @@
         440.6,
         441.45,
         445.8,
-        453.05
+        453.55,
+        455.9
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 101.15,
-      "change_pct_1d": 1.56,
-      "change_pct_5d": 6.21,
-      "change_pct_30d": 0.25,
+      "price": 101.78,
+      "change_pct_1d": 0.27,
+      "change_pct_5d": 5.69,
+      "change_pct_30d": 1.11,
       "week_52_high": 114.6,
       "week_52_low": 72.851,
       "history_90d": [
-        104.88,
         102.43,
         99.9,
         96.92,
@@ -141,20 +140,20 @@
         99.86,
         98.52,
         99.6,
-        101.15
+        101.5,
+        101.78
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 591.6,
-      "change_pct_1d": 1.27,
-      "change_pct_5d": 4.52,
-      "change_pct_30d": -3.71,
+      "price": 597.4,
+      "change_pct_1d": 0.17,
+      "change_pct_5d": 5.36,
+      "change_pct_30d": -2.48,
       "week_52_high": 705.4,
       "week_52_low": 471.0,
       "history_90d": [
-        627.55,
         618.75,
         600.76,
         585.97,
@@ -213,20 +212,20 @@
         583.0,
         581.8,
         584.2,
-        591.6
+        596.4,
+        597.4
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1378.4,
-      "change_pct_1d": 0.31,
-      "change_pct_5d": 3.05,
-      "change_pct_30d": 3.37,
+      "price": 1395.0,
+      "change_pct_1d": 0.65,
+      "change_pct_5d": 5.14,
+      "change_pct_30d": 4.1,
       "week_52_high": 1410.6,
       "week_52_low": 859.4,
       "history_90d": [
-        1397.53,
         1393.13,
         1331.55,
         1262.38,
@@ -284,16 +283,16 @@
         1360.0,
         1358.0,
         1374.2,
-        1378.4
+        1386.0,
+        1395.0
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.7301,
-    "change_1d": -0.0001,
+    "rate": 3.7309,
+    "change_1d": 0.0008,
     "history_90d": [
-      3.7246,
       3.725,
       3.7248,
       3.7239,
@@ -382,7 +381,8 @@
       3.7299,
       3.7297,
       3.7302,
-      3.7301
+      3.7301,
+      3.7309
     ],
     "status": "green"
   },
@@ -392,12 +392,6 @@
       "url": "https://www.bankofengland.co.uk/paper/2024/sop/the-bank-of-englands-approach-to-cost-benefit-analysis",
       "source": "Bank of England",
       "published_at": "Wed, 29 Apr 2026 09:30:00 +0100"
-    },
-    {
-      "title": "Bank holiday sun boosts South West tourism",
-      "url": "https://www.bbc.com/news/articles/cn4ppg9dxn2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "published_at": "Tue, 26 May 2026 05:11:15 GMT"
     },
     {
       "title": "Your voice 2026: insights from the Bank of England\u2019s outreach programmes",
@@ -446,6 +440,12 @@
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/13-may-2026",
       "source": "Bank of England",
       "published_at": "Thu, 14 May 2026 15:00:00 +0100"
+    },
+    {
+      "title": "Bank of England Weekly Report 8 April 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/8-april-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 09 Apr 2026 15:00:00 +0100"
     }
   ],
   "boe": {
