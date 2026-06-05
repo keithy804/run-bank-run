@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-06-04T08:29:51Z",
+  "updated_at": "2026-06-05T08:24:32Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 461.6,
-      "change_pct_1d": 0.39,
-      "change_pct_5d": 2.02,
-      "change_pct_30d": 5.42,
+      "price": 460.39,
+      "change_pct_1d": -0.76,
+      "change_pct_5d": 0.53,
+      "change_pct_30d": 6.02,
       "week_52_high": 523.0,
       "week_52_low": 315.5,
       "history_90d": [
-        430.6,
         417.0,
         404.15,
         397.4,
@@ -72,20 +71,20 @@
         454.8,
         470.2,
         459.8,
-        461.6
+        463.9,
+        460.39
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 100.22,
-      "change_pct_1d": 1.34,
-      "change_pct_5d": -0.91,
-      "change_pct_30d": -0.39,
+      "price": 99.82,
+      "change_pct_1d": -0.68,
+      "change_pct_5d": -2.04,
+      "change_pct_30d": -0.44,
       "week_52_high": 114.6,
       "week_52_low": 72.851,
       "history_90d": [
-        98.26,
         96.88,
         95.4,
         95.14,
@@ -147,20 +146,20 @@
         100.1,
         100.1,
         98.9,
-        100.22
+        100.5,
+        99.82
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 599.4,
-      "change_pct_1d": 1.59,
-      "change_pct_5d": 1.56,
-      "change_pct_30d": -0.37,
+      "price": 598.8,
+      "change_pct_1d": -0.43,
+      "change_pct_5d": -0.1,
+      "change_pct_30d": 1.08,
       "week_52_high": 705.4,
       "week_52_low": 471.0,
       "history_90d": [
-        594.56,
         585.77,
         575.37,
         575.57,
@@ -222,20 +221,20 @@
         590.8,
         598.2,
         590.0,
-        599.4
+        601.4,
+        598.8
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1368.0,
-      "change_pct_1d": -1.72,
-      "change_pct_5d": -0.94,
-      "change_pct_30d": 1.0,
+      "price": 1350.4,
+      "change_pct_1d": -1.21,
+      "change_pct_5d": -3.1,
+      "change_pct_30d": 0.6,
       "week_52_high": 1416.8,
       "week_52_low": 859.4,
       "history_90d": [
-        1290.97,
         1278.37,
         1244.58,
         1250.58,
@@ -296,29 +295,16 @@
         1382.6,
         1409.8,
         1392.0,
-        1368.0
+        1367.0,
+        1350.4
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.7292,
-    "change_1d": 0.0002,
+    "rate": 3.7308,
+    "change_1d": 0.0017,
     "history_90d": [
-      3.7263,
-      3.7251,
-      3.7245,
-      3.7248,
-      3.7249,
-      3.7246,
-      3.7246,
-      3.725,
-      3.7248,
-      3.7239,
-      3.7243,
-      3.7244,
-      3.7241,
-      3.7246,
       3.726,
       3.7265,
       3.7259,
@@ -394,7 +380,21 @@
       3.7299,
       3.7294,
       3.729,
-      3.7292
+      3.7292,
+      3.729,
+      3.73,
+      3.7299,
+      3.7297,
+      3.7302,
+      3.7301,
+      3.7309,
+      3.7301,
+      3.729,
+      3.729,
+      3.7295,
+      3.7302,
+      3.7291,
+      3.7308
     ],
     "status": "green"
   },
@@ -419,12 +419,6 @@
     },
     {
       "title": "The 18 creatures in the running to be on the new banknotes",
-      "url": "https://www.bbc.com/news/articles/cvgzrpe6mzjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "published_at": "Tue, 02 Jun 2026 23:02:18 GMT"
-    },
-    {
-      "title": "Puffin and bumblebee among 18 creatures shortlisted to feature on banknotes",
       "url": "https://www.bbc.com/news/articles/cvgzrpe6mzjo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business",
       "published_at": "Tue, 02 Jun 2026 23:02:18 GMT"
@@ -458,6 +452,12 @@
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/20-may-2026",
       "source": "Bank of England",
       "published_at": "Thu, 21 May 2026 15:00:00 +0100"
+    },
+    {
+      "title": "Bank of England Weekly Report 18 March 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/18-march-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 19 Mar 2026 15:00:00 Z"
     }
   ],
   "boe": {
