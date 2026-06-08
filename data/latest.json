@@ -1,17 +1,15 @@
 {
-  "updated_at": "2026-06-05T08:24:32Z",
+  "updated_at": "2026-06-08T08:37:19Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 460.39,
-      "change_pct_1d": -0.76,
-      "change_pct_5d": 0.53,
-      "change_pct_30d": 6.02,
+      "price": 452.35,
+      "change_pct_1d": -1.16,
+      "change_pct_5d": -0.54,
+      "change_pct_30d": 5.74,
       "week_52_high": 523.0,
       "week_52_low": 315.5,
       "history_90d": [
-        417.0,
-        404.15,
         397.4,
         417.8,
         410.25,
@@ -72,21 +70,20 @@
         470.2,
         459.8,
         463.9,
-        460.39
+        457.65,
+        452.35
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 99.82,
-      "change_pct_1d": -0.68,
-      "change_pct_5d": -2.04,
-      "change_pct_30d": -0.44,
+      "price": 98.56,
+      "change_pct_1d": -0.6,
+      "change_pct_5d": -1.54,
+      "change_pct_30d": -0.32,
       "week_52_high": 114.6,
       "week_52_low": 72.851,
       "history_90d": [
-        96.88,
-        95.4,
         95.14,
         99.0,
         98.36,
@@ -147,21 +144,20 @@
         100.1,
         98.9,
         100.5,
-        99.82
+        99.16,
+        98.56
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 598.8,
-      "change_pct_1d": -0.43,
-      "change_pct_5d": -0.1,
-      "change_pct_30d": 1.08,
+      "price": 591.4,
+      "change_pct_1d": -0.4,
+      "change_pct_5d": 0.1,
+      "change_pct_30d": 1.16,
       "week_52_high": 705.4,
       "week_52_low": 471.0,
       "history_90d": [
-        585.77,
-        575.37,
         575.57,
         590.37,
         587.77,
@@ -222,21 +218,20 @@
         598.2,
         590.0,
         601.4,
-        598.8
+        593.8,
+        591.4
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1350.4,
-      "change_pct_1d": -1.21,
-      "change_pct_5d": -3.1,
-      "change_pct_30d": 0.6,
+      "price": 1357.4,
+      "change_pct_1d": -0.25,
+      "change_pct_5d": -1.82,
+      "change_pct_30d": 1.46,
       "week_52_high": 1416.8,
       "week_52_low": 859.4,
       "history_90d": [
-        1278.37,
-        1244.58,
         1250.58,
         1279.57,
         1272.37,
@@ -296,17 +291,16 @@
         1409.8,
         1392.0,
         1367.0,
-        1350.4
+        1360.8,
+        1357.4
       ],
       "status": "green"
     }
   },
   "sonia": {
     "rate": 3.7308,
-    "change_1d": 0.0017,
+    "change_1d": 0.0002,
     "history_90d": [
-      3.726,
-      3.7265,
       3.7259,
       3.7256,
       3.7248,
@@ -394,6 +388,8 @@
       3.7295,
       3.7302,
       3.7291,
+      3.7308,
+      3.7306,
       3.7308
     ],
     "status": "green"
@@ -406,22 +402,10 @@
       "published_at": "Wed, 29 Apr 2026 09:30:00 +0100"
     },
     {
-      "title": "Lloyds, Halifax and Bank of Scotland back after online banking outage",
-      "url": "https://www.bbc.com/news/articles/c9d37gdxp7xo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "published_at": "Wed, 03 Jun 2026 14:16:52 GMT"
-    },
-    {
       "title": "Your voice 2026: insights from the Bank of England\u2019s outreach programmes",
       "url": "https://www.bankofengland.co.uk/about/get-involved/citizens-panels/your-voice-2026-insights-from-the-boe-outreach-programmes",
       "source": "Bank of England",
       "published_at": "Tue, 12 May 2026 09:30:00 +0100"
-    },
-    {
-      "title": "The 18 creatures in the running to be on the new banknotes",
-      "url": "https://www.bbc.com/news/articles/cvgzrpe6mzjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "published_at": "Tue, 02 Jun 2026 23:02:18 GMT"
     },
     {
       "title": "Bank of England Weekly Report 29 April 2026",
@@ -454,10 +438,22 @@
       "published_at": "Thu, 21 May 2026 15:00:00 +0100"
     },
     {
-      "title": "Bank of England Weekly Report 18 March 2026",
-      "url": "https://www.bankofengland.co.uk/weekly-report/2026/18-march-2026",
+      "title": "Bank of England Weekly Report 15 April 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/15-april-2026",
       "source": "Bank of England",
-      "published_at": "Thu, 19 Mar 2026 15:00:00 Z"
+      "published_at": "Thu, 16 Apr 2026 15:00:00 +0100"
+    },
+    {
+      "title": "Bank of England Weekly Report 13 May 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/13-may-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 14 May 2026 15:00:00 +0100"
+    },
+    {
+      "title": "Bank of England Weekly Report 8 April 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/8-april-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 09 Apr 2026 15:00:00 +0100"
     }
   ],
   "boe": {
