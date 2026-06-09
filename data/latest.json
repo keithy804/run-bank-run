@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-08T08:37:19Z",
+  "updated_at": "2026-06-09T08:15:50Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 452.35,
-      "change_pct_1d": -1.16,
-      "change_pct_5d": -0.54,
-      "change_pct_30d": 5.74,
+      "price": 457.95,
+      "change_pct_1d": 0.24,
+      "change_pct_5d": -2.61,
+      "change_pct_30d": 7.98,
       "week_52_high": 523.0,
       "week_52_low": 315.5,
       "history_90d": [
@@ -71,16 +71,17 @@
         459.8,
         463.9,
         457.65,
-        452.35
+        456.85,
+        457.95
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 98.56,
-      "change_pct_1d": -0.6,
-      "change_pct_5d": -1.54,
-      "change_pct_30d": -0.32,
+      "price": 99.78,
+      "change_pct_1d": 0.73,
+      "change_pct_5d": -0.32,
+      "change_pct_30d": 2.06,
       "week_52_high": 114.6,
       "week_52_low": 72.851,
       "history_90d": [
@@ -145,16 +146,17 @@
         98.9,
         100.5,
         99.16,
-        98.56
+        99.06,
+        99.78
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 591.4,
-      "change_pct_1d": -0.4,
-      "change_pct_5d": 0.1,
-      "change_pct_30d": 1.16,
+      "price": 602.9,
+      "change_pct_1d": 0.62,
+      "change_pct_5d": 0.79,
+      "change_pct_30d": 4.06,
       "week_52_high": 705.4,
       "week_52_low": 471.0,
       "history_90d": [
@@ -219,16 +221,17 @@
         590.0,
         601.4,
         593.8,
-        591.4
+        599.2,
+        602.9
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1357.4,
-      "change_pct_1d": -0.25,
-      "change_pct_5d": -1.82,
-      "change_pct_30d": 1.46,
+      "price": 1356.6,
+      "change_pct_1d": -1.06,
+      "change_pct_5d": -3.77,
+      "change_pct_30d": 2.7,
       "week_52_high": 1416.8,
       "week_52_low": 859.4,
       "history_90d": [
@@ -292,7 +295,8 @@
         1392.0,
         1367.0,
         1360.8,
-        1357.4
+        1371.2,
+        1356.6
       ],
       "status": "green"
     }
