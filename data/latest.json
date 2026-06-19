@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-06-18T08:34:46Z",
+  "updated_at": "2026-06-19T08:49:07Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 500.4,
-      "change_pct_1d": -0.62,
-      "change_pct_5d": 11.46,
-      "change_pct_30d": 13.05,
+      "price": 497.9,
+      "change_pct_1d": -0.54,
+      "change_pct_5d": 5.3,
+      "change_pct_30d": 13.54,
       "week_52_high": 523.0,
       "week_52_low": 317.85,
       "history_90d": [
-        399.05,
         381.6,
         373.9,
         382.25,
@@ -72,20 +71,20 @@
         479.9,
         486.95,
         503.5,
-        500.4
+        500.6,
+        497.9
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 105.01,
-      "change_pct_1d": -0.74,
-      "change_pct_5d": 6.98,
-      "change_pct_30d": 5.58,
+      "price": 104.55,
+      "change_pct_1d": -1.41,
+      "change_pct_5d": 2.15,
+      "change_pct_30d": 6.72,
       "week_52_high": 114.6,
       "week_52_low": 72.851,
       "history_90d": [
-        96.52,
         92.76,
         90.76,
         92.66,
@@ -147,20 +146,20 @@
         102.65,
         104.05,
         105.8,
-        105.01
+        106.05,
+        104.55
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 633.4,
-      "change_pct_1d": -0.72,
-      "change_pct_5d": 7.79,
-      "change_pct_30d": 9.97,
+      "price": 634.8,
+      "change_pct_1d": -1.0,
+      "change_pct_5d": 3.35,
+      "change_pct_30d": 10.93,
       "week_52_high": 705.4,
       "week_52_low": 471.0,
       "history_90d": [
-        579.77,
         533.6,
         519.6,
         530.2,
@@ -222,20 +221,20 @@
         614.8,
         628.6,
         638.0,
-        633.4
+        641.2,
+        634.8
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1429.0,
-      "change_pct_1d": -0.56,
-      "change_pct_5d": 8.11,
-      "change_pct_30d": 6.38,
-      "week_52_high": 1436.0,
+      "price": 1437.2,
+      "change_pct_1d": -0.36,
+      "change_pct_5d": 4.69,
+      "change_pct_30d": 7.63,
+      "week_52_high": 1441.2,
       "week_52_low": 860.3,
       "history_90d": [
-        1209.13,
         1171.53,
         1144.14,
         1182.93,
@@ -296,16 +295,16 @@
         1384.6,
         1409.6,
         1437.0,
-        1429.0
+        1442.4,
+        1437.2
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.7304,
-    "change_1d": 0.0008,
+    "rate": 3.7303,
+    "change_1d": -0.0001,
     "history_90d": [
-      3.7278,
       3.7279,
       3.7271,
       3.727,
@@ -394,7 +393,8 @@
       3.7305,
       3.7301,
       3.7296,
-      3.7304
+      3.7304,
+      3.7303
     ],
     "status": "green"
   },
@@ -404,18 +404,6 @@
       "url": "https://www.bankofengland.co.uk/paper/2024/sop/the-bank-of-englands-approach-to-cost-benefit-analysis",
       "source": "Bank of England",
       "published_at": "Wed, 29 Apr 2026 09:30:00 +0100"
-    },
-    {
-      "title": "Interest rates expected to be held by Bank of England",
-      "url": "https://www.bbc.com/news/articles/c33yzm5mdjpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "published_at": "Wed, 17 Jun 2026 23:01:11 GMT"
-    },
-    {
-      "title": "Interest rates expected to be held by Bank of England",
-      "url": "https://www.bbc.com/news/articles/c33yzm5mdjpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "published_at": "Wed, 17 Jun 2026 23:01:11 GMT"
     },
     {
       "title": "Your voice 2026: insights from the Bank of England\u2019s outreach programmes",
@@ -448,16 +436,28 @@
       "published_at": "Thu, 21 May 2026 15:00:00 +0100"
     },
     {
-      "title": "Bank of England Weekly Report 15 April 2026",
-      "url": "https://www.bankofengland.co.uk/weekly-report/2026/15-april-2026",
-      "source": "Bank of England",
-      "published_at": "Thu, 16 Apr 2026 15:00:00 +0100"
+      "title": "Brexit cost 6% of UK economy, Bank of England company data suggests",
+      "url": "https://www.bbc.com/news/articles/cvg75npqkq4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "published_at": "Thu, 18 Jun 2026 23:05:05 GMT"
     },
     {
-      "title": "Bank of England Weekly Report 13 May 2026",
-      "url": "https://www.bankofengland.co.uk/weekly-report/2026/13-may-2026",
+      "title": "Bank of England Weekly Report 17 June 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/17-june-2026",
       "source": "Bank of England",
-      "published_at": "Thu, 14 May 2026 15:00:00 +0100"
+      "published_at": "Thu, 18 Jun 2026 15:00:00 +0100"
+    },
+    {
+      "title": "Interest rates held as Bank warns of impact of high energy prices",
+      "url": "https://www.bbc.com/news/articles/c33yzm5mdjpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "published_at": "Thu, 18 Jun 2026 12:50:33 GMT"
+    },
+    {
+      "title": "Interest rates held as Bank warns of impact of high energy prices",
+      "url": "https://www.bbc.com/news/articles/c33yzm5mdjpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "published_at": "Thu, 18 Jun 2026 12:50:33 GMT"
     }
   ],
   "boe": {
