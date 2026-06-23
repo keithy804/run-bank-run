@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-22T09:05:23Z",
+  "updated_at": "2026-06-23T08:14:11Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 497.35,
-      "change_pct_1d": 0.18,
-      "change_pct_5d": 3.64,
-      "change_pct_30d": 14.54,
+      "price": 513.0,
+      "change_pct_1d": -0.58,
+      "change_pct_5d": 5.35,
+      "change_pct_30d": 19.55,
       "week_52_high": 523.0,
-      "week_52_low": 317.85,
+      "week_52_low": 319.35,
       "history_90d": [
         382.25,
         384.05,
@@ -71,16 +71,17 @@
         503.5,
         500.6,
         496.45,
-        497.35
+        516.0,
+        513.0
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 104.87,
-      "change_pct_1d": -0.22,
-      "change_pct_5d": 2.17,
-      "change_pct_30d": 5.99,
+      "price": 108.33,
+      "change_pct_1d": -0.8,
+      "change_pct_5d": 4.11,
+      "change_pct_30d": 10.16,
       "week_52_high": 114.6,
       "week_52_low": 72.851,
       "history_90d": [
@@ -145,16 +146,17 @@
         105.8,
         106.05,
         105.1,
-        104.87
+        109.2,
+        108.33
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 636.4,
-      "change_pct_1d": -0.22,
-      "change_pct_5d": 3.51,
-      "change_pct_30d": 9.76,
+      "price": 655.4,
+      "change_pct_1d": -1.15,
+      "change_pct_5d": 4.26,
+      "change_pct_30d": 12.73,
       "week_52_high": 705.4,
       "week_52_low": 471.0,
       "history_90d": [
@@ -219,18 +221,19 @@
         638.0,
         641.2,
         637.8,
-        636.4
+        663.0,
+        655.4
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1434.8,
-      "change_pct_1d": 0.22,
-      "change_pct_5d": 3.63,
-      "change_pct_30d": 9.08,
+      "price": 1433.2,
+      "change_pct_1d": -1.25,
+      "change_pct_5d": 1.67,
+      "change_pct_30d": 7.73,
       "week_52_high": 1442.4,
-      "week_52_low": 860.3,
+      "week_52_low": 867.2,
       "history_90d": [
         1182.93,
         1181.33,
@@ -292,7 +295,8 @@
         1437.0,
         1442.4,
         1431.6,
-        1434.8
+        1451.4,
+        1433.2
       ],
       "status": "green"
     }
