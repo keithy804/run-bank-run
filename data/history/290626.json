@@ -1,0 +1,60 @@
+{
+  "date": "290626",
+  "updated_at": "2026-06-29T08:41:08Z",
+  "prices": {
+    "BARC.L": {
+      "name": "Barclays",
+      "price": 509.6,
+      "change_pct_1d": -0.22,
+      "change_pct_5d": -1.24,
+      "change_pct_30d": 20.39,
+      "week_52_high": 523.0,
+      "week_52_low": 319.35,
+      "status": "green"
+    },
+    "LLOY.L": {
+      "name": "Lloyds",
+      "price": 109.65,
+      "change_pct_1d": 0.41,
+      "change_pct_5d": 0.41,
+      "change_pct_30d": 16.57,
+      "week_52_high": 114.6,
+      "week_52_low": 72.851,
+      "status": "green"
+    },
+    "NWG.L": {
+      "name": "NatWest",
+      "price": 655.3,
+      "change_pct_1d": -0.17,
+      "change_pct_5d": -1.16,
+      "change_pct_30d": 16.77,
+      "week_52_high": 705.4,
+      "week_52_low": 471.0,
+      "status": "green"
+    },
+    "HSBA.L": {
+      "name": "HSBC",
+      "price": 1432.6,
+      "change_pct_1d": 0.7,
+      "change_pct_5d": -1.3,
+      "change_pct_30d": 8.2,
+      "week_52_high": 1456.0,
+      "week_52_low": 867.2,
+      "status": "green"
+    }
+  },
+  "sonia": {
+    "rate": 3.7287,
+    "change_1d": -0.0003,
+    "status": "green"
+  },
+  "alerts": [
+    {
+      "type": "news_cluster",
+      "bank": null,
+      "severity": "amber",
+      "message": "10 banking-related headlines today"
+    }
+  ],
+  "overall_status": "amber"
+}
