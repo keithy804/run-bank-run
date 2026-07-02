@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-07-01T08:27:28Z",
+  "updated_at": "2026-07-02T08:05:19Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 508.7,
-      "change_pct_1d": 0.41,
-      "change_pct_5d": 0.3,
-      "change_pct_30d": 19.69,
+      "price": 517.6,
+      "change_pct_1d": 0.5,
+      "change_pct_5d": -0.71,
+      "change_pct_30d": 17.48,
       "week_52_high": 523.0,
       "week_52_low": 319.35,
       "history_90d": [
-        409.1,
         408.75,
         405.8,
         436.0,
@@ -71,20 +70,20 @@
         510.7,
         505.3,
         506.6,
-        508.7
+        515.0,
+        517.6
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 111.5,
-      "change_pct_1d": 0.36,
-      "change_pct_5d": 3.48,
-      "change_pct_30d": 15.78,
+      "price": 112.4,
+      "change_pct_1d": 0.22,
+      "change_pct_5d": 2.14,
+      "change_pct_30d": 12.56,
       "week_52_high": 114.6,
       "week_52_low": 72.851,
       "history_90d": [
-        97.68,
         97.92,
         95.71,
         102.12,
@@ -145,20 +144,20 @@
         109.2,
         108.8,
         111.1,
-        111.5
+        112.15,
+        112.4
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 670.0,
-      "change_pct_1d": 0.45,
-      "change_pct_5d": 3.55,
-      "change_pct_30d": 18.17,
+      "price": 676.4,
+      "change_pct_1d": -0.47,
+      "change_pct_5d": 2.33,
+      "change_pct_30d": 16.02,
       "week_52_high": 705.4,
       "week_52_low": 471.0,
       "history_90d": [
-        583.2,
         575.4,
         569.0,
         608.0,
@@ -219,20 +218,20 @@
         656.4,
         656.2,
         667.0,
-        670.0
+        679.6,
+        676.4
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1431.0,
-      "change_pct_1d": 0.01,
-      "change_pct_5d": 0.11,
-      "change_pct_30d": 7.85,
+      "price": 1427.8,
+      "change_pct_1d": -0.87,
+      "change_pct_5d": -1.22,
+      "change_pct_30d": 4.99,
       "week_52_high": 1456.0,
-      "week_52_low": 867.2,
+      "week_52_low": 880.1,
       "history_90d": [
-        1286.53,
         1272.73,
         1268.53,
         1334.73,
@@ -292,16 +291,16 @@
         1422.6,
         1423.8,
         1430.8,
-        1431.0
+        1440.4,
+        1427.8
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.729,
-    "change_1d": 0.0003,
+    "rate": 3.7292,
+    "change_1d": 0.0002,
     "history_90d": [
-      3.7276,
       3.7277,
       3.7276,
       3.7282,
@@ -390,11 +389,18 @@
       3.7295,
       3.729,
       3.7287,
-      3.729
+      3.729,
+      3.7292
     ],
     "status": "green"
   },
   "news": [
+    {
+      "title": "'We had to use a food bank after university\u2019",
+      "url": "https://www.bbc.co.uk/news/videos/crel0y74dr9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "published_at": "Wed, 01 Jul 2026 22:34:03 GMT"
+    },
     {
       "title": "Bank of England and Financial Conduct Authority\u2019s approach to joint regulation of systemic stablecoin issuers",
       "url": "https://www.bankofengland.co.uk/paper/2026/boe-and-fcas-approach-to-joint-regulation-of-systemic-stablecoin-issuers",
@@ -426,12 +432,6 @@
       "published_at": "Thu, 25 Jun 2026 15:00:00 +0100"
     },
     {
-      "title": "Bank of England Annual Report and Accounts - 2026",
-      "url": "https://www.bankofengland.co.uk/annual-report/2026",
-      "source": "Bank of England",
-      "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
-    },
-    {
       "title": "Report on the Bank\u2019s official market operations March 2025\u2013February 2026",
       "url": "https://www.bankofengland.co.uk/sterling-monetary-framework/report-2025-26",
       "source": "Bank of England",
@@ -450,10 +450,10 @@
       "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
     },
     {
-      "title": "Bank of England Weekly Report 20 May 2026",
-      "url": "https://www.bankofengland.co.uk/weekly-report/2026/20-may-2026",
+      "title": "Bank of England Annual Report and Accounts - 2026",
+      "url": "https://www.bankofengland.co.uk/annual-report/2026",
       "source": "Bank of England",
-      "published_at": "Thu, 21 May 2026 15:00:00 +0100"
+      "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
     }
   ],
   "boe": {
