@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-03T09:58:39Z",
+  "updated_at": "2026-07-06T11:27:12Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 520.5,
-      "change_pct_1d": -0.31,
-      "change_pct_5d": 1.92,
-      "change_pct_30d": 17.91,
-      "week_52_high": 526.5354,
-      "week_52_low": 325.05,
+      "price": 522.5,
+      "change_pct_1d": 0.04,
+      "change_pct_5d": 3.4,
+      "change_pct_30d": 17.21,
+      "week_52_high": 526.535,
+      "week_52_low": 331.55,
       "history_90d": [
         405.8,
         436.0,
@@ -71,18 +71,19 @@
         506.6,
         515.0,
         522.1,
-        520.5
+        522.3,
+        522.5
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 114.12,
-      "change_pct_1d": -0.46,
-      "change_pct_5d": 4.51,
-      "change_pct_30d": 15.84,
-      "week_52_high": 115.45,
-      "week_52_low": 73.54,
+      "price": 114.45,
+      "change_pct_1d": -0.52,
+      "change_pct_5d": 5.19,
+      "change_pct_30d": 14.91,
+      "week_52_high": 115.7,
+      "week_52_low": 74.4,
       "history_90d": [
         95.71,
         102.12,
@@ -145,18 +146,19 @@
         111.1,
         112.15,
         114.65,
-        114.12
+        115.05,
+        114.45
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 675.2,
-      "change_pct_1d": -0.5,
-      "change_pct_5d": 2.86,
-      "change_pct_30d": 16.05,
+      "price": 678.6,
+      "change_pct_1d": -0.62,
+      "change_pct_5d": 3.41,
+      "change_pct_30d": 16.16,
       "week_52_high": 705.4,
-      "week_52_low": 475.44,
+      "week_52_low": 483.0,
       "history_90d": [
         569.0,
         608.0,
@@ -219,18 +221,19 @@
         667.0,
         679.6,
         678.6,
-        675.2
+        682.8,
+        678.6
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1439.2,
-      "change_pct_1d": -0.42,
-      "change_pct_5d": 1.17,
-      "change_pct_30d": 5.98,
-      "week_52_high": 1456.0,
-      "week_52_low": 880.1,
+      "price": 1448.2,
+      "change_pct_1d": -0.19,
+      "change_pct_5d": 1.71,
+      "change_pct_30d": 5.38,
+      "week_52_high": 1590.0,
+      "week_52_low": 889.0,
       "history_90d": [
         1268.53,
         1334.73,
@@ -292,16 +295,16 @@
         1430.8,
         1440.4,
         1445.2,
-        1439.2
+        1451.0,
+        1448.2
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.7309,
-    "change_1d": -0.0009,
+    "rate": 3.7305,
+    "change_1d": -0.0004,
     "history_90d": [
-      3.7282,
       3.728,
       3.7278,
       3.7276,
@@ -390,7 +393,8 @@
       3.729,
       3.7292,
       3.7318,
-      3.7309
+      3.7309,
+      3.7305
     ],
     "status": "green"
   },
@@ -420,12 +424,6 @@
       "published_at": "Thu, 25 Jun 2026 15:00:00 +0100"
     },
     {
-      "title": "Bank of England Climate Transition Plan \u2013 2026 update",
-      "url": "https://www.bankofengland.co.uk/climate-change/bank-of-england-climate-transition-plan-2026-update",
-      "source": "Bank of England",
-      "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
-    },
-    {
       "title": "Report on the Bank\u2019s official market operations March 2025\u2013February 2026",
       "url": "https://www.bankofengland.co.uk/sterling-monetary-framework/report-2025-26",
       "source": "Bank of England",
@@ -434,6 +432,12 @@
     {
       "title": "The Bank of England's climate-related financial disclosure 2026",
       "url": "https://www.bankofengland.co.uk/climate-change/the-bank-of-englands-climate-related-financial-disclosure-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
+    },
+    {
+      "title": "Bank of England Climate Transition Plan \u2013 2026 update",
+      "url": "https://www.bankofengland.co.uk/climate-change/bank-of-england-climate-transition-plan-2026-update",
       "source": "Bank of England",
       "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
     },
