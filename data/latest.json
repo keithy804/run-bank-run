@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-07-07T10:25:58Z",
+  "updated_at": "2026-07-08T09:25:14Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 523.5,
-      "change_pct_1d": -1.13,
-      "change_pct_5d": 3.34,
-      "change_pct_30d": 15.42,
-      "week_52_high": 531.3,
-      "week_52_low": 331.55,
+      "price": 497.7,
+      "change_pct_1d": -3.57,
+      "change_pct_5d": -3.36,
+      "change_pct_30d": 9.08,
+      "week_52_high": 530.0,
+      "week_52_low": 333.35,
       "history_90d": [
-        405.8,
         436.0,
         433.45,
         441.0,
@@ -73,20 +72,20 @@
         522.1,
         522.3,
         529.5,
-        523.5
+        516.1,
+        497.7
       ],
-      "status": "green"
+      "status": "amber"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 115.05,
-      "change_pct_1d": -0.26,
-      "change_pct_5d": 3.56,
-      "change_pct_30d": 13.35,
-      "week_52_high": 115.75,
+      "price": 110.73,
+      "change_pct_1d": -2.74,
+      "change_pct_5d": -1.26,
+      "change_pct_30d": 8.56,
+      "week_52_high": 116.0,
       "week_52_low": 74.4,
       "history_90d": [
-        95.71,
         102.12,
         100.62,
         100.9,
@@ -149,20 +148,20 @@
         114.65,
         115.05,
         115.35,
-        115.05
+        113.85,
+        110.73
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 682.8,
-      "change_pct_1d": -0.52,
-      "change_pct_5d": 2.37,
-      "change_pct_30d": 14.49,
+      "price": 654.2,
+      "change_pct_1d": -3.48,
+      "change_pct_5d": -3.74,
+      "change_pct_30d": 9.11,
       "week_52_high": 705.4,
-      "week_52_low": 483.0,
+      "week_52_low": 486.9,
       "history_90d": [
-        569.0,
         608.0,
         605.2,
         614.4,
@@ -225,20 +224,20 @@
         678.6,
         682.8,
         686.4,
-        682.8
+        677.8,
+        654.2
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1462.4,
-      "change_pct_1d": -0.22,
-      "change_pct_5d": 2.21,
-      "change_pct_30d": 5.51,
-      "week_52_high": 1467.0,
-      "week_52_low": 889.0,
+      "price": 1422.6,
+      "change_pct_1d": -2.12,
+      "change_pct_5d": -1.24,
+      "change_pct_30d": 1.32,
+      "week_52_high": 1590.0,
+      "week_52_low": 895.3,
       "history_90d": [
-        1268.53,
         1334.73,
         1333.53,
         1340.13,
@@ -300,16 +299,16 @@
         1445.2,
         1451.0,
         1465.6,
-        1462.4
+        1453.4,
+        1422.6
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.7302,
-    "change_1d": -0.0003,
+    "rate": 3.7297,
+    "change_1d": -0.0005,
     "history_90d": [
-      3.7278,
       3.7276,
       3.7286,
       3.7267,
@@ -398,11 +397,18 @@
       3.7318,
       3.7309,
       3.7305,
-      3.7302
+      3.7302,
+      3.7297
     ],
     "status": "green"
   },
   "news": [
+    {
+      "title": "The Bank of England\u2019s fees regime for financial market infrastructure supervision for CCPs and CSDs 2026/27",
+      "url": "https://www.bankofengland.co.uk/paper/2026/ps/the-boes-fees-regime-for-fmi-supervision-for-ccps-and-csds-2026-27",
+      "source": "Bank of England",
+      "published_at": "Wed, 08 Jul 2026 10:00:00 +0100"
+    },
     {
       "title": "Bank of England and Financial Conduct Authority\u2019s approach to joint regulation of systemic stablecoin issuers",
       "url": "https://www.bankofengland.co.uk/paper/2026/boe-and-fcas-approach-to-joint-regulation-of-systemic-stablecoin-issuers",
@@ -410,20 +416,14 @@
       "published_at": "Tue, 30 Jun 2026 09:00:00 +0100"
     },
     {
-      "title": "Your voice 2026: insights from the Bank of England\u2019s outreach programmes",
-      "url": "https://www.bankofengland.co.uk/about/get-involved/citizens-panels/your-voice-2026-insights-from-the-boe-outreach-programmes",
-      "source": "Bank of England",
-      "published_at": "Tue, 12 May 2026 09:30:00 +0100"
-    },
-    {
-      "title": "Financial Stability in Focus: The bank capital framework",
-      "url": "https://www.bankofengland.co.uk/financial-stability-in-focus/2026/fsif-the-bank-capital-framework",
+      "title": "Financial Stability Report - July 2026",
+      "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/july-2026",
       "source": "Bank of England",
       "published_at": "Tue, 07 Jul 2026 10:30:00 +0100"
     },
     {
-      "title": "Financial Stability Report - July 2026",
-      "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/july-2026",
+      "title": "Financial Stability in Focus: The bank capital framework",
+      "url": "https://www.bankofengland.co.uk/financial-stability-in-focus/2026/fsif-the-bank-capital-framework",
       "source": "Bank of England",
       "published_at": "Tue, 07 Jul 2026 10:30:00 +0100"
     },
@@ -470,24 +470,19 @@
     "next_ccyb_decision": "Q2 2026",
     "recent_announcements": [
       {
-        "title": "Financial Stability in Focus: The bank capital framework",
-        "url": "https://www.bankofengland.co.uk/financial-stability-in-focus/2026/fsif-the-bank-capital-framework",
+        "title": "Financial Stability Report - July 2026",
+        "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/july-2026",
         "published_at": "Tue, 07 Jul 2026 10:30:00 +0100"
       },
       {
-        "title": "Financial Stability Report - July 2026",
-        "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/july-2026",
+        "title": "Financial Stability in Focus: The bank capital framework",
+        "url": "https://www.bankofengland.co.uk/financial-stability-in-focus/2026/fsif-the-bank-capital-framework",
         "published_at": "Tue, 07 Jul 2026 10:30:00 +0100"
       },
       {
         "title": "Bank of England and Financial Conduct Authority\u2019s approach to joint regulation of systemic stablecoin issuers",
         "url": "https://www.bankofengland.co.uk/paper/2026/boe-and-fcas-approach-to-joint-regulation-of-systemic-stablecoin-issuers",
         "published_at": "Tue, 30 Jun 2026 09:00:00 +0100"
-      },
-      {
-        "title": "Sterling-denominated systemic stablecoins",
-        "url": "https://www.bankofengland.co.uk/paper/2026/ps/sterling-denominated-systemic-stablecoin",
-        "published_at": "Mon, 22 Jun 2026 08:30:00 +0100"
       }
     ]
   },
