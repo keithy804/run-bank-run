@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-07-08T09:25:14Z",
+  "updated_at": "2026-07-09T10:30:14Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 497.7,
-      "change_pct_1d": -3.57,
-      "change_pct_5d": -3.36,
-      "change_pct_30d": 9.08,
-      "week_52_high": 530.0,
-      "week_52_low": 333.35,
+      "price": 506.4,
+      "change_pct_1d": -1.19,
+      "change_pct_5d": -3.01,
+      "change_pct_30d": 11.92,
+      "week_52_high": 531.3,
+      "week_52_low": 336.05,
       "history_90d": [
-        436.0,
         433.45,
         441.0,
         435.0,
@@ -73,20 +72,20 @@
         522.3,
         529.5,
         516.1,
-        497.7
+        512.5,
+        506.4
       ],
-      "status": "amber"
+      "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 110.73,
-      "change_pct_1d": -2.74,
-      "change_pct_5d": -1.26,
-      "change_pct_30d": 8.56,
+      "price": 112.15,
+      "change_pct_1d": 1.49,
+      "change_pct_5d": -2.18,
+      "change_pct_30d": 10.87,
       "week_52_high": 116.0,
       "week_52_low": 74.4,
       "history_90d": [
-        102.12,
         100.62,
         100.9,
         100.66,
@@ -149,20 +148,20 @@
         115.05,
         115.35,
         113.85,
-        110.73
+        110.5,
+        112.15
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 654.2,
-      "change_pct_1d": -3.48,
-      "change_pct_5d": -3.74,
-      "change_pct_30d": 9.11,
+      "price": 663.0,
+      "change_pct_1d": 1.78,
+      "change_pct_5d": -2.3,
+      "change_pct_30d": 12.33,
       "week_52_high": 705.4,
       "week_52_low": 486.9,
       "history_90d": [
-        608.0,
         605.2,
         614.4,
         612.6,
@@ -225,20 +224,20 @@
         682.8,
         686.4,
         677.8,
-        654.2
+        651.4,
+        663.0
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1422.6,
-      "change_pct_1d": -2.12,
-      "change_pct_5d": -1.24,
-      "change_pct_30d": 1.32,
+      "price": 1448.4,
+      "change_pct_1d": -0.39,
+      "change_pct_5d": 0.22,
+      "change_pct_30d": 4.88,
       "week_52_high": 1590.0,
-      "week_52_low": 895.3,
+      "week_52_low": 899.8,
       "history_90d": [
-        1334.73,
         1333.53,
         1340.13,
         1344.73,
@@ -300,16 +299,16 @@
         1451.0,
         1465.6,
         1453.4,
-        1422.6
+        1454.0,
+        1448.4
       ],
       "status": "green"
     }
   },
   "sonia": {
     "rate": 3.7297,
-    "change_1d": -0.0005,
+    "change_1d": 0.0,
     "history_90d": [
-      3.7276,
       3.7286,
       3.7267,
       3.7271,
@@ -398,11 +397,30 @@
       3.7309,
       3.7305,
       3.7302,
+      3.7297,
       3.7297
     ],
     "status": "green"
   },
   "news": [
+    {
+      "title": "I run the UK's biggest bank, here are five ways to manage your money",
+      "url": "https://www.bbc.co.uk/news/articles/cd7wldr3prro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "published_at": "Wed, 08 Jul 2026 23:10:10 GMT"
+    },
+    {
+      "title": "I run the UK's biggest bank, here are five ways to manage your money",
+      "url": "https://www.bbc.co.uk/news/articles/cd7wldr3prro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "published_at": "Wed, 08 Jul 2026 23:10:10 GMT"
+    },
+    {
+      "title": "How to find lost bank accounts",
+      "url": "https://www.bbc.co.uk/videos/ckg8dx51er4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "published_at": "Wed, 08 Jul 2026 13:13:37 GMT"
+    },
     {
       "title": "The Bank of England\u2019s fees regime for financial market infrastructure supervision for CCPs and CSDs 2026/27",
       "url": "https://www.bankofengland.co.uk/paper/2026/ps/the-boes-fees-regime-for-fmi-supervision-for-ccps-and-csds-2026-27",
@@ -442,24 +460,6 @@
     {
       "title": "Bank of England Climate Transition Plan \u2013 2026 update",
       "url": "https://www.bankofengland.co.uk/climate-change/bank-of-england-climate-transition-plan-2026-update",
-      "source": "Bank of England",
-      "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
-    },
-    {
-      "title": "Report on the Bank\u2019s official market operations March 2025\u2013February 2026",
-      "url": "https://www.bankofengland.co.uk/sterling-monetary-framework/report-2025-26",
-      "source": "Bank of England",
-      "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
-    },
-    {
-      "title": "The Bank of England's climate-related financial disclosure 2026",
-      "url": "https://www.bankofengland.co.uk/climate-change/the-bank-of-englands-climate-related-financial-disclosure-2026",
-      "source": "Bank of England",
-      "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
-    },
-    {
-      "title": "Bank of England Annual Report and Accounts - 2026",
-      "url": "https://www.bankofengland.co.uk/annual-report/2026",
       "source": "Bank of England",
       "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
     }
