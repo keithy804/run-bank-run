@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-07-17T09:09:05Z",
+  "updated_at": "2026-07-20T10:10:03Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 514.6,
-      "change_pct_1d": -1.94,
-      "change_pct_5d": 0.39,
-      "change_pct_30d": 12.44,
-      "week_52_high": 520.5,
-      "week_52_low": 513.6,
+      "price": 516.0,
+      "change_pct_1d": -0.14,
+      "change_pct_5d": 1.18,
+      "change_pct_30d": 12.95,
+      "week_52_high": 531.3,
+      "week_52_low": 343.95,
       "history_90d": [
-        452.85,
         442.8,
         437.85,
         434.25,
@@ -73,20 +72,20 @@
         519.9,
         524.5,
         524.8,
-        514.6
+        516.7,
+        516.0
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 110.55,
-      "change_pct_1d": -1.86,
-      "change_pct_5d": -1.43,
-      "change_pct_30d": 11.49,
+      "price": 111.63,
+      "change_pct_1d": 0.11,
+      "change_pct_5d": 0.75,
+      "change_pct_30d": 12.69,
       "week_52_high": 116.0,
       "week_52_low": 74.4,
       "history_90d": [
-        105.12,
         102.78,
         100.62,
         100.26,
@@ -149,31 +148,96 @@
         111.95,
         112.5,
         112.65,
-        110.55
+        111.5,
+        111.63
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": null,
-      "change_pct_1d": null,
-      "change_pct_5d": null,
-      "change_pct_30d": null,
-      "week_52_high": null,
-      "week_52_low": null,
-      "history_90d": [],
-      "status": "error"
+      "price": 671.6,
+      "change_pct_1d": 0.33,
+      "change_pct_5d": 2.53,
+      "change_pct_30d": 12.08,
+      "week_52_high": 705.4,
+      "week_52_low": 492.3,
+      "history_90d": [
+        607.2,
+        601.6,
+        592.4,
+        584.6,
+        579.4,
+        573.6,
+        577.6,
+        569.0,
+        585.2,
+        565.6,
+        545.0,
+        576.0,
+        572.25,
+        579.8,
+        581.4,
+        562.8,
+        564.0,
+        570.4,
+        561.2,
+        566.0,
+        567.0,
+        583.0,
+        581.8,
+        584.2,
+        596.4,
+        599.6,
+        590.2,
+        599.4,
+        590.8,
+        598.2,
+        590.0,
+        601.4,
+        593.8,
+        599.2,
+        593.0,
+        586.2,
+        587.6,
+        614.2,
+        614.8,
+        628.6,
+        638.0,
+        641.2,
+        637.8,
+        663.0,
+        657.2,
+        647.0,
+        661.0,
+        656.4,
+        656.2,
+        667.0,
+        679.6,
+        678.6,
+        682.8,
+        686.4,
+        677.8,
+        651.4,
+        663.0,
+        662.4,
+        655.0,
+        649.8,
+        663.4,
+        664.6,
+        669.4,
+        671.6
+      ],
+      "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1480.8,
-      "change_pct_1d": -0.87,
-      "change_pct_5d": 0.67,
-      "change_pct_30d": 8.82,
+      "price": 1490.6,
+      "change_pct_1d": -0.11,
+      "change_pct_5d": 1.96,
+      "change_pct_30d": 8.71,
       "week_52_high": 1590.0,
       "week_52_low": 908.8,
       "history_90d": [
-        1365.12,
         1349.52,
         1354.52,
         1342.33,
@@ -236,16 +300,16 @@
         1490.0,
         1479.8,
         1493.8,
-        1480.8
+        1492.2,
+        1490.6
       ],
       "status": "green"
     }
   },
   "sonia": {
     "rate": 3.7308,
-    "change_1d": -0.0003,
+    "change_1d": 0.0,
     "history_90d": [
-      3.7302,
       3.7296,
       3.7294,
       3.7295,
@@ -334,17 +398,12 @@
       3.731,
       3.7308,
       3.7311,
+      3.7308,
       3.7308
     ],
     "status": "green"
   },
   "news": [
-    {
-      "title": "How to find lost bank accounts",
-      "url": "https://www.bbc.co.uk/videos/ckg8dx51er4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "published_at": "Wed, 08 Jul 2026 13:13:37 GMT"
-    },
     {
       "title": "The Bank of England\u2019s fees regime for financial market infrastructure supervision for CCPs and CSDs 2026/27",
       "url": "https://www.bankofengland.co.uk/paper/2026/ps/the-boes-fees-regime-for-fmi-supervision-for-ccps-and-csds-2026-27",
@@ -382,20 +441,26 @@
       "published_at": "Thu, 25 Jun 2026 15:00:00 +0100"
     },
     {
+      "title": "Report on the Bank\u2019s official market operations March 2025\u2013February 2026",
+      "url": "https://www.bankofengland.co.uk/sterling-monetary-framework/report-2025-26",
+      "source": "Bank of England",
+      "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
+    },
+    {
       "title": "The Bank of England's climate-related financial disclosure 2026",
       "url": "https://www.bankofengland.co.uk/climate-change/the-bank-of-englands-climate-related-financial-disclosure-2026",
       "source": "Bank of England",
       "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
     },
     {
-      "title": "Bank of England Annual Report and Accounts - 2026",
-      "url": "https://www.bankofengland.co.uk/annual-report/2026",
+      "title": "Bank of England Climate Transition Plan \u2013 2026 update",
+      "url": "https://www.bankofengland.co.uk/climate-change/bank-of-england-climate-transition-plan-2026-update",
       "source": "Bank of England",
       "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
     },
     {
-      "title": "Bank of England Climate Transition Plan \u2013 2026 update",
-      "url": "https://www.bankofengland.co.uk/climate-change/bank-of-england-climate-transition-plan-2026-update",
+      "title": "Bank of England Annual Report and Accounts - 2026",
+      "url": "https://www.bankofengland.co.uk/annual-report/2026",
       "source": "Bank of England",
       "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
     }
