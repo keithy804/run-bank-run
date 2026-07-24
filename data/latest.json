@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-07-23T09:23:48Z",
+  "updated_at": "2026-07-24T09:21:16Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 521.4,
-      "change_pct_1d": -1.06,
-      "change_pct_5d": -0.65,
-      "change_pct_30d": 16.14,
+      "price": 522.9,
+      "change_pct_1d": 0.65,
+      "change_pct_5d": 1.2,
+      "change_pct_30d": 10.58,
       "week_52_high": 531.3,
-      "week_52_low": 346.6,
+      "week_52_low": 351.04,
       "history_90d": [
-        427.8,
         424.1,
         427.4,
         426.55,
@@ -73,20 +72,20 @@
         512.4,
         522.4,
         527.0,
-        521.4
+        519.5,
+        522.9
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 114.3,
-      "change_pct_1d": -0.48,
-      "change_pct_5d": 1.46,
-      "change_pct_30d": 16.44,
+      "price": 113.8,
+      "change_pct_1d": 1.2,
+      "change_pct_5d": 2.06,
+      "change_pct_30d": 11.19,
       "week_52_high": 116.0,
       "week_52_low": 74.4,
       "history_90d": [
-        98.88,
         97.77,
         97.5,
         98.57,
@@ -149,20 +148,20 @@
         110.95,
         113.25,
         114.85,
-        114.3
+        112.45,
+        113.8
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 680.0,
-      "change_pct_1d": -0.67,
-      "change_pct_5d": 2.32,
-      "change_pct_30d": 15.72,
+      "price": 677.2,
+      "change_pct_1d": 0.98,
+      "change_pct_5d": 1.17,
+      "change_pct_30d": 10.26,
       "week_52_high": 705.4,
-      "week_52_low": 496.6,
+      "week_52_low": 497.0,
       "history_90d": [
-        584.6,
         579.4,
         573.6,
         577.6,
@@ -225,20 +224,20 @@
         665.4,
         679.0,
         684.6,
-        680.0
+        670.6,
+        677.2
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1539.6,
-      "change_pct_1d": -0.09,
-      "change_pct_5d": 3.07,
-      "change_pct_30d": 16.48,
+      "price": 1547.0,
+      "change_pct_1d": 1.31,
+      "change_pct_5d": 3.67,
+      "change_pct_30d": 12.69,
       "week_52_high": 1590.0,
       "week_52_low": 908.8,
       "history_90d": [
-        1337.93,
         1320.93,
         1320.13,
         1332.13,
@@ -301,16 +300,16 @@
         1480.8,
         1509.4,
         1541.0,
-        1539.6
+        1527.0,
+        1547.0
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.7302,
-    "change_1d": -0.0005,
+    "rate": 3.7303,
+    "change_1d": 0.0001,
     "history_90d": [
-      3.7293,
       3.7295,
       3.7289,
       3.729,
@@ -399,7 +398,8 @@
       3.7308,
       3.7307,
       3.7307,
-      3.7302
+      3.7302,
+      3.7303
     ],
     "status": "green"
   },
@@ -429,16 +429,16 @@
       "published_at": "Tue, 07 Jul 2026 10:30:00 +0100"
     },
     {
-      "title": "Bank of England Weekly Report 27 May 2026",
-      "url": "https://www.bankofengland.co.uk/weekly-report/2026/27-may-2026",
-      "source": "Bank of England",
-      "published_at": "Thu, 28 May 2026 15:00:00 +0100"
-    },
-    {
       "title": "Bank of England Weekly Report 24 June 2026",
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/24-june-2026",
       "source": "Bank of England",
       "published_at": "Thu, 25 Jun 2026 15:00:00 +0100"
+    },
+    {
+      "title": "Bank of England Climate Transition Plan \u2013 2026 update",
+      "url": "https://www.bankofengland.co.uk/climate-change/bank-of-england-climate-transition-plan-2026-update",
+      "source": "Bank of England",
+      "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
     },
     {
       "title": "Report on the Bank\u2019s official market operations March 2025\u2013February 2026",
@@ -453,16 +453,16 @@
       "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
     },
     {
-      "title": "Bank of England Climate Transition Plan \u2013 2026 update",
-      "url": "https://www.bankofengland.co.uk/climate-change/bank-of-england-climate-transition-plan-2026-update",
-      "source": "Bank of England",
-      "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
-    },
-    {
       "title": "Bank of England Annual Report and Accounts - 2026",
       "url": "https://www.bankofengland.co.uk/annual-report/2026",
       "source": "Bank of England",
       "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
+    },
+    {
+      "title": "Bank of England Weekly Report 22 July 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/22-july-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 23 Jul 2026 15:00:00 +0100"
     }
   ],
   "boe": {
