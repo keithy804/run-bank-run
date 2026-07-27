@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-07-24T09:21:16Z",
+  "updated_at": "2026-07-27T10:42:29Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 522.9,
-      "change_pct_1d": 0.65,
-      "change_pct_5d": 1.2,
-      "change_pct_30d": 10.58,
-      "week_52_high": 531.3,
-      "week_52_low": 351.04,
+      "price": 535.83,
+      "change_pct_1d": 1.99,
+      "change_pct_5d": 4.57,
+      "change_pct_30d": 11.65,
+      "week_52_high": 536.4,
+      "week_52_low": 352.6,
       "history_90d": [
-        424.1,
         427.4,
         426.55,
         431.0,
@@ -73,20 +72,20 @@
         522.4,
         527.0,
         519.5,
-        522.9
+        525.4,
+        535.83
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 113.8,
-      "change_pct_1d": 1.2,
-      "change_pct_5d": 2.06,
-      "change_pct_30d": 11.19,
+      "price": 114.8,
+      "change_pct_1d": 1.15,
+      "change_pct_5d": 3.47,
+      "change_pct_30d": 11.84,
       "week_52_high": 116.0,
       "week_52_low": 74.4,
       "history_90d": [
-        97.77,
         97.5,
         98.57,
         97.05,
@@ -149,20 +148,20 @@
         113.25,
         114.85,
         112.45,
-        113.8
+        113.5,
+        114.8
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 677.2,
-      "change_pct_1d": 0.98,
-      "change_pct_5d": 1.17,
-      "change_pct_30d": 10.26,
+      "price": 685.6,
+      "change_pct_1d": 1.42,
+      "change_pct_5d": 3.04,
+      "change_pct_30d": 11.52,
       "week_52_high": 705.4,
-      "week_52_low": 497.0,
+      "week_52_low": 500.2,
       "history_90d": [
-        579.4,
         573.6,
         577.6,
         569.0,
@@ -225,20 +224,20 @@
         679.0,
         684.6,
         670.6,
-        677.2
+        676.0,
+        685.6
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1547.0,
-      "change_pct_1d": 1.31,
-      "change_pct_5d": 3.67,
-      "change_pct_30d": 12.69,
+      "price": 1563.6,
+      "change_pct_1d": 0.7,
+      "change_pct_5d": 5.59,
+      "change_pct_30d": 12.93,
       "week_52_high": 1590.0,
       "week_52_low": 908.8,
       "history_90d": [
-        1320.93,
         1320.13,
         1332.13,
         1330.93,
@@ -301,16 +300,16 @@
         1509.4,
         1541.0,
         1527.0,
-        1547.0
+        1552.8,
+        1563.6
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.7303,
-    "change_1d": 0.0001,
+    "rate": 3.731,
+    "change_1d": 0.0007,
     "history_90d": [
-      3.7295,
       3.7289,
       3.729,
       3.7296,
@@ -399,7 +398,8 @@
       3.7307,
       3.7307,
       3.7302,
-      3.7303
+      3.7303,
+      3.731
     ],
     "status": "green"
   },
@@ -435,18 +435,6 @@
       "published_at": "Thu, 25 Jun 2026 15:00:00 +0100"
     },
     {
-      "title": "Bank of England Climate Transition Plan \u2013 2026 update",
-      "url": "https://www.bankofengland.co.uk/climate-change/bank-of-england-climate-transition-plan-2026-update",
-      "source": "Bank of England",
-      "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
-    },
-    {
-      "title": "Report on the Bank\u2019s official market operations March 2025\u2013February 2026",
-      "url": "https://www.bankofengland.co.uk/sterling-monetary-framework/report-2025-26",
-      "source": "Bank of England",
-      "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
-    },
-    {
       "title": "The Bank of England's climate-related financial disclosure 2026",
       "url": "https://www.bankofengland.co.uk/climate-change/the-bank-of-englands-climate-related-financial-disclosure-2026",
       "source": "Bank of England",
@@ -455,6 +443,18 @@
     {
       "title": "Bank of England Annual Report and Accounts - 2026",
       "url": "https://www.bankofengland.co.uk/annual-report/2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
+    },
+    {
+      "title": "Bank of England Climate Transition Plan \u2013 2026 update",
+      "url": "https://www.bankofengland.co.uk/climate-change/bank-of-england-climate-transition-plan-2026-update",
+      "source": "Bank of England",
+      "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
+    },
+    {
+      "title": "Report on the Bank\u2019s official market operations March 2025\u2013February 2026",
+      "url": "https://www.bankofengland.co.uk/sterling-monetary-framework/report-2025-26",
       "source": "Bank of England",
       "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
     },
@@ -470,6 +470,11 @@
     "next_fsr_date": "Nov 2026",
     "next_ccyb_decision": "Q2 2026",
     "recent_announcements": [
+      {
+        "title": "The devil in the DeTail: assessing state-contingent tail effects of a releasable macroprudential capital buffer using a parsimonious agent-based framework",
+        "url": "https://www.bankofengland.co.uk/working-paper/2026/the-devil-in-the-detail-assessing-state-contingent-tail-effects",
+        "published_at": "Fri, 24 Jul 2026 14:00:00 +0100"
+      },
       {
         "title": "Financial Stability in Focus: The bank capital framework",
         "url": "https://www.bankofengland.co.uk/financial-stability-in-focus/2026/fsif-the-bank-capital-framework",
