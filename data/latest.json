@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-30T09:30:05Z",
+  "updated_at": "2026-07-31T09:44:35Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 499.15,
-      "change_pct_1d": 1.35,
-      "change_pct_5d": -3.92,
-      "change_pct_30d": -0.29,
+      "price": 516.0,
+      "change_pct_1d": 1.0,
+      "change_pct_5d": -1.79,
+      "change_pct_30d": 3.94,
       "week_52_high": 538.3,
       "week_52_low": 352.6,
       "history_90d": [
@@ -73,17 +73,18 @@
         530.4,
         505.0,
         492.5,
-        499.15
+        510.9,
+        516.0
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 113.7,
-      "change_pct_1d": 2.11,
-      "change_pct_5d": 1.11,
-      "change_pct_30d": 7.21,
-      "week_52_high": 116.0,
+      "price": 116.05,
+      "change_pct_1d": 0.35,
+      "change_pct_5d": 2.25,
+      "change_pct_30d": 10.42,
+      "week_52_high": 117.7,
       "week_52_low": 74.4,
       "history_90d": [
         99.69,
@@ -149,17 +150,18 @@
         114.7,
         113.05,
         111.35,
-        113.7
+        115.65,
+        116.05
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 671.0,
-      "change_pct_1d": 0.9,
-      "change_pct_5d": 0.06,
-      "change_pct_30d": 4.65,
-      "week_52_high": 705.4,
+      "price": 709.6,
+      "change_pct_1d": 3.77,
+      "change_pct_5d": 4.97,
+      "change_pct_30d": 11.26,
+      "week_52_high": 713.6,
       "week_52_low": 500.2,
       "history_90d": [
         585.2,
@@ -225,17 +227,18 @@
         680.8,
         664.8,
         665.0,
-        671.0
+        683.8,
+        709.6
       ],
-      "status": "green"
+      "status": "amber"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1572.0,
-      "change_pct_1d": 1.56,
-      "change_pct_5d": 2.95,
-      "change_pct_30d": 8.99,
-      "week_52_high": 1590.0,
+      "price": 1594.2,
+      "change_pct_1d": 0.45,
+      "change_pct_5d": 2.67,
+      "change_pct_30d": 11.36,
+      "week_52_high": 1604.6,
       "week_52_low": 908.8,
       "history_90d": [
         1348.92,
@@ -301,16 +304,16 @@
         1551.2,
         1548.4,
         1547.8,
-        1572.0
+        1587.0,
+        1594.2
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.7316,
-    "change_1d": 0.0004,
+    "rate": 3.7313,
+    "change_1d": -0.0003,
     "history_90d": [
-      3.7294,
       3.7281,
       3.7274,
       3.7274,
@@ -399,23 +402,12 @@
       3.731,
       3.7307,
       3.7312,
-      3.7316
+      3.7316,
+      3.7313
     ],
     "status": "green"
   },
   "news": [
-    {
-      "title": "Interest rates expected to be held again by Bank of England",
-      "url": "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "published_at": "Wed, 29 Jul 2026 23:01:56 GMT"
-    },
-    {
-      "title": "Interest rates expected to be held again by Bank of England",
-      "url": "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "published_at": "Wed, 29 Jul 2026 23:01:56 GMT"
-    },
     {
       "title": "The Bank of England\u2019s fees regime for financial market infrastructure supervision for CCPs and CSDs 2026/27",
       "url": "https://www.bankofengland.co.uk/paper/2026/ps/the-boes-fees-regime-for-fmi-supervision-for-ccps-and-csds-2026-27",
@@ -441,6 +433,24 @@
       "published_at": "Tue, 07 Jul 2026 10:30:00 +0100"
     },
     {
+      "title": "Bank holds interest rates but says it is ready to raise them if Iran war escalates",
+      "url": "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "published_at": "Thu, 30 Jul 2026 16:33:40 GMT"
+    },
+    {
+      "title": "Bank holds interest rates but says it is ready to raise them if Iran war escalates",
+      "url": "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "published_at": "Thu, 30 Jul 2026 16:33:40 GMT"
+    },
+    {
+      "title": "Bank of England Weekly Report 29 July 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/29-july-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 30 Jul 2026 15:00:00 +0100"
+    },
+    {
       "title": "Bank of England Weekly Report 24 June 2026",
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/24-june-2026",
       "source": "Bank of England",
@@ -455,12 +465,6 @@
     {
       "title": "The Bank of England's climate-related financial disclosure 2026",
       "url": "https://www.bankofengland.co.uk/climate-change/the-bank-of-englands-climate-related-financial-disclosure-2026",
-      "source": "Bank of England",
-      "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
-    },
-    {
-      "title": "Bank of England Climate Transition Plan \u2013 2026 update",
-      "url": "https://www.bankofengland.co.uk/climate-change/bank-of-england-climate-transition-plan-2026-update",
       "source": "Bank of England",
       "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
     }
@@ -484,11 +488,6 @@
         "title": "Financial Stability Report - July 2026",
         "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/july-2026",
         "published_at": "Tue, 07 Jul 2026 10:30:00 +0100"
-      },
-      {
-        "title": "Bank of England and Financial Conduct Authority\u2019s approach to joint regulation of systemic stablecoin issuers",
-        "url": "https://www.bankofengland.co.uk/paper/2026/boe-and-fcas-approach-to-joint-regulation-of-systemic-stablecoin-issuers",
-        "published_at": "Tue, 30 Jun 2026 09:00:00 +0100"
       }
     ]
   },
