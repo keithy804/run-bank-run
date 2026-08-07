@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-08-06T09:39:16Z",
+  "updated_at": "2026-08-07T08:13:22Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 528.8,
-      "change_pct_1d": 0.26,
-      "change_pct_5d": 3.52,
-      "change_pct_30d": 1.45,
+      "price": 515.9,
+      "change_pct_1d": NaN,
+      "change_pct_5d": 1.43,
+      "change_pct_30d": 1.03,
       "week_52_high": 538.3,
       "week_52_low": 352.85,
       "history_90d": [
-        442.6,
         438.48,
         434.15,
         429.05,
@@ -75,20 +74,20 @@
         514.94,
         522.24,
         527.44,
-        528.8
+        NaN,
+        515.9
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 116.88,
-      "change_pct_1d": -0.18,
-      "change_pct_5d": 1.07,
-      "change_pct_30d": 6.22,
-      "week_52_high": 117.7,
+      "price": 114.05,
+      "change_pct_1d": NaN,
+      "change_pct_5d": -0.55,
+      "change_pct_30d": 4.46,
+      "week_52_high": 117.9,
       "week_52_low": 77.38,
       "history_90d": [
-        99.45,
         97.96,
         98.94,
         98.33,
@@ -153,20 +152,20 @@
         116.58,
         117.03,
         117.08,
-        116.88
+        NaN,
+        114.05
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 723.0,
-      "change_pct_1d": 1.29,
-      "change_pct_5d": 5.73,
-      "change_pct_30d": 9.38,
-      "week_52_high": 725.08,
+      "price": 710.0,
+      "change_pct_1d": -0.53,
+      "change_pct_5d": 3.83,
+      "change_pct_30d": 7.41,
+      "week_52_high": 726.0,
       "week_52_low": 500.2,
       "history_90d": [
-        576.0,
         572.25,
         579.8,
         581.4,
@@ -231,20 +230,19 @@
         722.8,
         716.0,
         713.8,
-        723.0
+        710.0
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1528.8,
-      "change_pct_1d": 1.2,
-      "change_pct_5d": -3.67,
-      "change_pct_30d": 5.77,
-      "week_52_high": 1604.6,
-      "week_52_low": 927.6,
+      "price": 1525.8,
+      "change_pct_1d": 1.01,
+      "change_pct_5d": -3.86,
+      "change_pct_30d": 5.56,
+      "week_52_high": 1610.0,
+      "week_52_low": 927.7,
       "history_90d": [
-        1343.33,
         1335.33,
         1315.33,
         1330.33,
@@ -309,7 +307,7 @@
         1597.4,
         1584.6,
         1510.6,
-        1528.8
+        1525.8
       ],
       "status": "green"
     }
@@ -449,18 +447,6 @@
       "published_at": "Thu, 25 Jun 2026 15:00:00 +0100"
     },
     {
-      "title": "Bank of England Climate Transition Plan \u2013 2026 update",
-      "url": "https://www.bankofengland.co.uk/climate-change/bank-of-england-climate-transition-plan-2026-update",
-      "source": "Bank of England",
-      "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
-    },
-    {
-      "title": "Report on the Bank\u2019s official market operations March 2025\u2013February 2026",
-      "url": "https://www.bankofengland.co.uk/sterling-monetary-framework/report-2025-26",
-      "source": "Bank of England",
-      "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
-    },
-    {
       "title": "The Bank of England's climate-related financial disclosure 2026",
       "url": "https://www.bankofengland.co.uk/climate-change/the-bank-of-englands-climate-related-financial-disclosure-2026",
       "source": "Bank of England",
@@ -469,6 +455,18 @@
     {
       "title": "Bank of England Annual Report and Accounts - 2026",
       "url": "https://www.bankofengland.co.uk/annual-report/2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
+    },
+    {
+      "title": "Bank of England Climate Transition Plan \u2013 2026 update",
+      "url": "https://www.bankofengland.co.uk/climate-change/bank-of-england-climate-transition-plan-2026-update",
+      "source": "Bank of England",
+      "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
+    },
+    {
+      "title": "Report on the Bank\u2019s official market operations March 2025\u2013February 2026",
+      "url": "https://www.bankofengland.co.uk/sterling-monetary-framework/report-2025-26",
       "source": "Bank of England",
       "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
     }
