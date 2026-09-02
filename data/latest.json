@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-09-01T12:22:27Z",
+  "updated_at": "2026-09-02T11:58:04Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 481.5,
-      "change_pct_1d": -3.05,
-      "change_pct_5d": -2.8,
-      "change_pct_30d": -6.02,
+      "price": 481.35,
+      "change_pct_1d": -0.98,
+      "change_pct_5d": -3.0,
+      "change_pct_30d": -7.85,
       "week_52_high": 538.3,
       "week_52_low": 353.55,
       "history_90d": [
-        454.75,
         470.15,
         459.75,
         463.85,
@@ -75,20 +74,20 @@
         499.55,
         492.6,
         496.65,
-        481.5
+        486.1,
+        481.35
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 110.0,
+      "price": 110.6,
       "change_pct_1d": 0.05,
-      "change_pct_5d": -1.43,
-      "change_pct_30d": -0.84,
+      "change_pct_5d": -0.76,
+      "change_pct_30d": -2.33,
       "week_52_high": 117.9,
       "week_52_low": 77.38,
       "history_90d": [
-        100.09,
         100.09,
         98.89,
         100.49,
@@ -153,20 +152,20 @@
         111.7,
         109.3,
         109.95,
-        110.0
+        110.55,
+        110.6
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 677.4,
-      "change_pct_1d": -0.29,
-      "change_pct_5d": -1.66,
-      "change_pct_30d": 1.82,
+      "price": 688.8,
+      "change_pct_1d": 0.88,
+      "change_pct_5d": -0.2,
+      "change_pct_30d": 1.46,
       "week_52_high": 726.0,
       "week_52_low": 500.2,
       "history_90d": [
-        590.7,
         598.1,
         589.9,
         601.3,
@@ -231,20 +230,20 @@
         692.0,
         678.4,
         679.4,
-        677.4
+        682.8,
+        688.8
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1523.6,
-      "change_pct_1d": -0.31,
-      "change_pct_5d": -0.35,
-      "change_pct_30d": 2.9,
+      "price": 1538.2,
+      "change_pct_1d": 0.31,
+      "change_pct_5d": 1.4,
+      "change_pct_30d": 1.91,
       "week_52_high": 1610.0,
       "week_52_low": 946.2,
       "history_90d": [
-        1382.51,
         1409.71,
         1391.91,
         1366.91,
@@ -309,16 +308,16 @@
         1522.2,
         1504.0,
         1528.4,
-        1523.6
+        1533.4,
+        1538.2
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.7303,
-    "change_1d": -0.0006,
+    "rate": 3.7308,
+    "change_1d": 0.0005,
     "history_90d": [
-      3.7304,
       3.7311,
       3.7305,
       3.7307,
@@ -407,7 +406,8 @@
       3.7311,
       3.7316,
       3.7309,
-      3.7303
+      3.7303,
+      3.7308
     ],
     "status": "green"
   },
@@ -437,6 +437,12 @@
       "published_at": "Tue, 07 Jul 2026 10:30:00 +0100"
     },
     {
+      "title": "Kids eat free and loyalty points - six ways to eat out but not break the bank",
+      "url": "https://www.bbc.co.uk/news/articles/c2dy8kz867go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "published_at": "Tue, 01 Sep 2026 23:26:38 GMT"
+    },
+    {
       "title": "Bank of England Weekly Report 29 July 2026",
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/29-july-2026",
       "source": "Bank of England",
@@ -463,12 +469,6 @@
     {
       "title": "Report on the Bank\u2019s official market operations March 2025\u2013February 2026",
       "url": "https://www.bankofengland.co.uk/sterling-monetary-framework/report-2025-26",
-      "source": "Bank of England",
-      "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
-    },
-    {
-      "title": "The Bank of England's climate-related financial disclosure 2026",
-      "url": "https://www.bankofengland.co.uk/climate-change/the-bank-of-englands-climate-related-financial-disclosure-2026",
       "source": "Bank of England",
       "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
     }
