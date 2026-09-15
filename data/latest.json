@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-14T13:40:34Z",
+  "updated_at": "2026-09-15T12:28:46Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 482.5,
-      "change_pct_1d": -2.28,
-      "change_pct_5d": -3.43,
-      "change_pct_30d": -5.14,
+      "price": 477.35,
+      "change_pct_1d": -0.24,
+      "change_pct_5d": -4.16,
+      "change_pct_30d": -7.3,
       "week_52_high": 538.3,
       "week_52_low": 353.55,
       "history_90d": [
@@ -74,16 +74,17 @@
         487.85,
         484.35,
         493.75,
-        482.5
+        478.5,
+        477.35
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 110.32,
-      "change_pct_1d": -0.75,
-      "change_pct_5d": -2.67,
-      "change_pct_30d": -3.81,
+      "price": 110.22,
+      "change_pct_1d": 0.8,
+      "change_pct_5d": -1.68,
+      "change_pct_30d": -5.46,
       "week_52_high": 117.9,
       "week_52_low": 81.04,
       "history_90d": [
@@ -151,16 +152,17 @@
         109.65,
         109.1,
         111.15,
-        110.32
+        109.35,
+        110.22
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 691.8,
-      "change_pct_1d": -0.86,
-      "change_pct_5d": -1.17,
-      "change_pct_30d": -1.97,
+      "price": 696.8,
+      "change_pct_1d": 2.05,
+      "change_pct_5d": 0.06,
+      "change_pct_30d": -3.58,
       "week_52_high": 726.0,
       "week_52_low": 504.0,
       "history_90d": [
@@ -228,16 +230,17 @@
         688.0,
         682.4,
         697.8,
-        691.8
+        682.8,
+        696.8
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1541.0,
-      "change_pct_1d": -0.75,
-      "change_pct_5d": -2.41,
-      "change_pct_30d": -2.21,
+      "price": 1528.2,
+      "change_pct_1d": -0.56,
+      "change_pct_5d": -2.96,
+      "change_pct_30d": -4.33,
       "week_52_high": 1610.0,
       "week_52_low": 959.286,
       "history_90d": [
@@ -305,16 +308,16 @@
         1549.2,
         1529.0,
         1552.6,
-        1541.0
+        1536.8,
+        1528.2
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.7305,
-    "change_1d": 0.0009,
+    "rate": 3.7307,
+    "change_1d": 0.0002,
     "history_90d": [
-      3.7292,
       3.7299,
       3.7294,
       3.729,
@@ -403,7 +406,8 @@
       3.7293,
       3.7302,
       3.7296,
-      3.7305
+      3.7305,
+      3.7307
     ],
     "status": "green"
   },
