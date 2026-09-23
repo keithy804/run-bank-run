@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-09-22T12:22:53Z",
+  "updated_at": "2026-09-23T12:34:42Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 471.55,
-      "change_pct_1d": 0.1,
-      "change_pct_5d": 0.27,
-      "change_pct_30d": -8.97,
+      "price": 462.4,
+      "change_pct_1d": -0.62,
+      "change_pct_5d": -2.72,
+      "change_pct_30d": -10.39,
       "week_52_high": 538.3,
       "week_52_low": 353.55,
       "history_90d": [
-        515.94,
         511.44,
         507.14,
         521.24,
@@ -75,20 +74,20 @@
         478.85,
         462.2,
         471.1,
-        471.55
+        465.3,
+        462.4
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 110.22,
-      "change_pct_1d": 0.2,
-      "change_pct_5d": 1.21,
-      "change_pct_30d": -3.87,
+      "price": 107.52,
+      "change_pct_1d": -0.72,
+      "change_pct_5d": -3.35,
+      "change_pct_30d": -5.51,
       "week_52_high": 117.9,
       "week_52_low": 81.04,
       "history_90d": [
-        109.19,
         109.04,
         107.74,
         110.04,
@@ -153,20 +152,20 @@
         112.2,
         108.95,
         110.0,
-        110.22
+        108.3,
+        107.52
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 708.6,
-      "change_pct_1d": -0.06,
-      "change_pct_5d": 2.81,
-      "change_pct_30d": -0.43,
+      "price": 682.5,
+      "change_pct_1d": -1.8,
+      "change_pct_5d": -2.81,
+      "change_pct_30d": -3.5,
       "week_52_high": 726.0,
       "week_52_low": 504.41,
       "history_90d": [
-        662.89,
         657.09,
         646.89,
         660.89,
@@ -231,20 +230,20 @@
         712.8,
         699.4,
         709.0,
-        708.6
+        695.0,
+        682.5
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1527.6,
-      "change_pct_1d": -0.4,
-      "change_pct_5d": 1.58,
-      "change_pct_30d": 0.08,
+      "price": 1514.0,
+      "change_pct_1d": 0.3,
+      "change_pct_5d": 0.41,
+      "change_pct_30d": -0.66,
       "week_52_high": 1610.0,
       "week_52_low": 959.286,
       "history_90d": [
-        1451.33,
         1445.73,
         1429.33,
         1445.33,
@@ -309,16 +308,16 @@
         1537.4,
         1512.6,
         1533.8,
-        1527.6
+        1509.4,
+        1514.0
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.7301,
-    "change_1d": -0.0003,
+    "rate": 3.7303,
+    "change_1d": 0.0002,
     "history_90d": [
-      3.73,
       3.7299,
       3.7297,
       3.7302,
@@ -407,7 +406,8 @@
       3.7302,
       3.7303,
       3.7304,
-      3.7301
+      3.7301,
+      3.7303
     ],
     "status": "green"
   },
@@ -425,20 +425,32 @@
       "published_at": "Tue, 30 Jun 2026 09:00:00 +0100"
     },
     {
+      "title": "'I don't have a buoyancy aid': Living without the Bank of Mum and Dad",
+      "url": "https://www.bbc.co.uk/news/articles/c8dx5p7gd4e9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "published_at": "Tue, 22 Sep 2026 23:20:31 GMT"
+    },
+    {
+      "title": "'I don't have a buoyancy aid': Living without the Bank of Mum and Dad",
+      "url": "https://www.bbc.co.uk/news/articles/c8dx5p7gd4e9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "published_at": "Tue, 22 Sep 2026 23:20:31 GMT"
+    },
+    {
       "title": "The Bank of England\u2019s fees regime for recognised payment systems and specified service providers supervision 2026/27",
       "url": "https://www.bankofengland.co.uk/paper/2026/cp/the-boes-fees-regime-for-recognised-payment-systems-and-ssps-supervision-2026-27",
       "source": "Bank of England",
       "published_at": "Tue, 22 Sep 2026 12:00:00 +0100"
     },
     {
-      "title": "Financial Stability Report - July 2026",
-      "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/july-2026",
+      "title": "Financial Stability in Focus: The bank capital framework",
+      "url": "https://www.bankofengland.co.uk/financial-stability-in-focus/2026/fsif-the-bank-capital-framework",
       "source": "Bank of England",
       "published_at": "Tue, 07 Jul 2026 10:30:00 +0100"
     },
     {
-      "title": "Financial Stability in Focus: The bank capital framework",
-      "url": "https://www.bankofengland.co.uk/financial-stability-in-focus/2026/fsif-the-bank-capital-framework",
+      "title": "Financial Stability Report - July 2026",
+      "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/july-2026",
       "source": "Bank of England",
       "published_at": "Tue, 07 Jul 2026 10:30:00 +0100"
     },
@@ -459,18 +471,6 @@
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/24-june-2026",
       "source": "Bank of England",
       "published_at": "Thu, 25 Jun 2026 15:00:00 +0100"
-    },
-    {
-      "title": "Bank of England Annual Report and Accounts - 2026",
-      "url": "https://www.bankofengland.co.uk/annual-report/2026",
-      "source": "Bank of England",
-      "published_at": "Thu, 25 Jun 2026 12:00:00 +0100"
-    },
-    {
-      "title": "Bank of England Weekly Report 22 July 2026",
-      "url": "https://www.bankofengland.co.uk/weekly-report/2026/22-july-2026",
-      "source": "Bank of England",
-      "published_at": "Thu, 23 Jul 2026 15:00:00 +0100"
     }
   ],
   "boe": {
