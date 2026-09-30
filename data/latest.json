@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-09-29T13:45:58Z",
+  "updated_at": "2026-09-30T13:21:22Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 460.95,
-      "change_pct_1d": -0.31,
-      "change_pct_5d": -0.93,
-      "change_pct_30d": -10.56,
+      "price": 458.7,
+      "change_pct_1d": -0.07,
+      "change_pct_5d": -0.39,
+      "change_pct_30d": -8.92,
       "week_52_high": 538.3,
       "week_52_low": 353.55,
       "history_90d": [
-        505.24,
         506.54,
         514.94,
         522.04,
@@ -75,20 +74,20 @@
         456.6,
         463.9,
         462.4,
-        460.95
+        459.0,
+        458.7
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 108.2,
-      "change_pct_1d": 0.09,
-      "change_pct_5d": -0.09,
-      "change_pct_30d": -5.67,
+      "price": 107.25,
+      "change_pct_1d": -0.23,
+      "change_pct_5d": -0.28,
+      "change_pct_30d": -4.88,
       "week_52_high": 117.9,
       "week_52_low": 81.82,
       "history_90d": [
-        108.79,
         111.09,
         112.13,
         114.63,
@@ -153,20 +152,20 @@
         107.0,
         108.8,
         108.1,
-        108.2
+        107.5,
+        107.25
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 694.6,
-      "change_pct_1d": 0.67,
-      "change_pct_5d": -0.06,
-      "change_pct_30d": -2.03,
+      "price": 688.6,
+      "change_pct_1d": 0.09,
+      "change_pct_5d": 0.91,
+      "change_pct_30d": -0.66,
       "week_52_high": 726.0,
       "week_52_low": 504.41,
       "history_90d": [
-        656.09,
         666.89,
         679.49,
         678.49,
@@ -231,20 +230,20 @@
         684.6,
         694.4,
         690.0,
-        694.6
+        688.0,
+        688.6
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1516.0,
-      "change_pct_1d": -0.03,
-      "change_pct_5d": 0.44,
-      "change_pct_30d": -0.98,
+      "price": 1506.2,
+      "change_pct_1d": -0.25,
+      "change_pct_5d": -0.55,
+      "change_pct_30d": -0.55,
       "week_52_high": 1610.0,
       "week_52_low": 959.286,
       "history_90d": [
-        1423.73,
         1430.73,
         1440.33,
         1445.13,
@@ -309,16 +308,16 @@
         1499.8,
         1512.2,
         1516.4,
-        1516.0
+        1510.0,
+        1506.2
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.73,
-    "change_1d": -0.0005,
+    "rate": 3.7302,
+    "change_1d": 0.0002,
     "history_90d": [
-      3.7309,
       3.7301,
       3.729,
       3.729,
@@ -407,11 +406,18 @@
       3.7305,
       3.7305,
       3.7305,
-      3.73
+      3.73,
+      3.7302
     ],
     "status": "green"
   },
   "news": [
+    {
+      "title": "Facing the future without the 'bank of mum and dad'",
+      "url": "https://www.bbc.co.uk/news/articles/ck7902ejw10vo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "published_at": "Wed, 30 Sep 2026 04:56:57 GMT"
+    },
     {
       "title": "The Bank of England\u2019s fees regime for financial market infrastructure supervision for CCPs and CSDs 2026/27",
       "url": "https://www.bankofengland.co.uk/paper/2026/ps/the-boes-fees-regime-for-fmi-supervision-for-ccps-and-csds-2026-27",
@@ -465,19 +471,19 @@
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/22-july-2026",
       "source": "Bank of England",
       "published_at": "Thu, 23 Jul 2026 15:00:00 +0100"
-    },
-    {
-      "title": "Bank of England Weekly Report 19 August 2026",
-      "url": "https://www.bankofengland.co.uk/weekly-report/2026/19-august-2026",
-      "source": "Bank of England",
-      "published_at": "Thu, 20 Aug 2026 15:00:00 +0100"
     }
   ],
   "boe": {
     "ccyb_rate": 2.0,
     "next_fsr_date": "Nov 2026",
     "next_ccyb_decision": "Q2 2026",
-    "recent_announcements": []
+    "recent_announcements": [
+      {
+        "title": "Systemic Risk Survey Results - 2026 H2",
+        "url": "https://www.bankofengland.co.uk/systemic-risk-survey/2026/2026-h2",
+        "published_at": "Wed, 30 Sep 2026 10:30:00 +0100"
+      }
+    ]
   },
   "alerts": [
     {
