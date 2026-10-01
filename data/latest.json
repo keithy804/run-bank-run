@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-09-30T13:21:22Z",
+  "updated_at": "2026-10-01T14:13:52Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 458.7,
-      "change_pct_1d": -0.07,
-      "change_pct_5d": -0.39,
-      "change_pct_30d": -8.92,
+      "price": 441.72,
+      "change_pct_1d": -3.46,
+      "change_pct_5d": -3.26,
+      "change_pct_30d": -10.96,
       "week_52_high": 538.3,
       "week_52_low": 353.55,
       "history_90d": [
-        506.54,
         514.94,
         522.04,
         522.24,
@@ -75,20 +74,20 @@
         463.9,
         462.4,
         459.0,
-        458.7
+        457.55,
+        441.72
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 107.25,
-      "change_pct_1d": -0.23,
-      "change_pct_5d": -0.28,
-      "change_pct_30d": -4.88,
+      "price": 102.6,
+      "change_pct_1d": -4.02,
+      "change_pct_5d": -4.11,
+      "change_pct_30d": -7.02,
       "week_52_high": 117.9,
       "week_52_low": 81.82,
       "history_90d": [
-        111.09,
         112.13,
         114.63,
         115.03,
@@ -153,20 +152,20 @@
         108.8,
         108.1,
         107.5,
-        107.25
+        106.9,
+        102.6
       ],
-      "status": "green"
+      "status": "amber"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 688.6,
-      "change_pct_1d": 0.09,
-      "change_pct_5d": 0.91,
-      "change_pct_30d": -0.66,
+      "price": 653.8,
+      "change_pct_1d": -5.03,
+      "change_pct_5d": -4.5,
+      "change_pct_30d": -4.13,
       "week_52_high": 726.0,
       "week_52_low": 504.41,
       "history_90d": [
-        666.89,
         679.49,
         678.49,
         682.69,
@@ -231,20 +230,20 @@
         694.4,
         690.0,
         688.0,
-        688.6
+        688.4,
+        653.8
       ],
-      "status": "green"
+      "status": "red"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1506.2,
-      "change_pct_1d": -0.25,
-      "change_pct_5d": -0.55,
-      "change_pct_30d": -0.55,
+      "price": 1437.2,
+      "change_pct_1d": -4.03,
+      "change_pct_5d": -4.17,
+      "change_pct_30d": -4.01,
       "week_52_high": 1610.0,
       "week_52_low": 959.286,
       "history_90d": [
-        1430.73,
         1440.33,
         1445.13,
         1450.93,
@@ -309,16 +308,16 @@
         1512.2,
         1516.4,
         1510.0,
-        1506.2
+        1497.6,
+        1437.2
       ],
-      "status": "green"
+      "status": "amber"
     }
   },
   "sonia": {
-    "rate": 3.7302,
-    "change_1d": 0.0002,
+    "rate": 3.7321,
+    "change_1d": 0.0019,
     "history_90d": [
-      3.7301,
       3.729,
       3.729,
       3.7295,
@@ -407,28 +406,17 @@
       3.7305,
       3.7305,
       3.73,
-      3.7302
+      3.7302,
+      3.7321
     ],
     "status": "green"
   },
   "news": [
     {
-      "title": "Facing the future without the 'bank of mum and dad'",
-      "url": "https://www.bbc.co.uk/news/articles/ck7902ejw10vo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "published_at": "Wed, 30 Sep 2026 04:56:57 GMT"
-    },
-    {
       "title": "The Bank of England\u2019s fees regime for financial market infrastructure supervision for CCPs and CSDs 2026/27",
       "url": "https://www.bankofengland.co.uk/paper/2026/ps/the-boes-fees-regime-for-fmi-supervision-for-ccps-and-csds-2026-27",
       "source": "Bank of England",
       "published_at": "Wed, 08 Jul 2026 10:00:00 +0100"
-    },
-    {
-      "title": "Bank of England and Financial Conduct Authority\u2019s approach to joint regulation of systemic stablecoin issuers",
-      "url": "https://www.bankofengland.co.uk/paper/2026/boe-and-fcas-approach-to-joint-regulation-of-systemic-stablecoin-issuers",
-      "source": "Bank of England",
-      "published_at": "Tue, 30 Jun 2026 09:00:00 +0100"
     },
     {
       "title": "The Bank of England\u2019s fees regime for recognised payment systems and specified service providers supervision 2026/27",
@@ -471,6 +459,18 @@
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/22-july-2026",
       "source": "Bank of England",
       "published_at": "Thu, 23 Jul 2026 15:00:00 +0100"
+    },
+    {
+      "title": "Bank of England Weekly Report 19 August 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/19-august-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 20 Aug 2026 15:00:00 +0100"
+    },
+    {
+      "title": "Bank of England Weekly Report 16 September 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/16-september-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 17 Sep 2026 15:00:00 +0100"
     }
   ],
   "boe": {
@@ -487,11 +487,17 @@
   },
   "alerts": [
     {
+      "type": "price_drop_1d",
+      "bank": "NWG.L",
+      "severity": "red",
+      "message": "NatWest dropped 5.0% today"
+    },
+    {
       "type": "news_cluster",
       "bank": null,
       "severity": "amber",
       "message": "10 banking-related headlines today"
     }
   ],
-  "overall_status": "amber"
+  "overall_status": "red"
 }
