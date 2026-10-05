@@ -1,17 +1,15 @@
 {
-  "updated_at": "2026-10-02T13:36:31Z",
+  "updated_at": "2026-10-05T15:34:55Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 439.39,
-      "change_pct_1d": 0.1,
-      "change_pct_5d": -5.28,
-      "change_pct_30d": -10.14,
+      "price": 446.4,
+      "change_pct_1d": 0.62,
+      "change_pct_5d": -3.46,
+      "change_pct_30d": -9.38,
       "week_52_high": 538.3,
       "week_52_low": 353.55,
       "history_90d": [
-        522.04,
-        522.24,
         529.44,
         516.04,
         512.44,
@@ -75,21 +73,20 @@
         459.0,
         457.55,
         438.95,
-        439.39
+        443.65,
+        446.4
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 102.35,
-      "change_pct_1d": 0.24,
-      "change_pct_5d": -5.93,
-      "change_pct_30d": -6.74,
+      "price": 103.87,
+      "change_pct_1d": -0.12,
+      "change_pct_5d": -3.91,
+      "change_pct_30d": -6.63,
       "week_52_high": 117.9,
       "week_52_low": 81.82,
       "history_90d": [
-        114.63,
-        115.03,
         115.33,
         113.83,
         110.49,
@@ -153,21 +150,20 @@
         107.5,
         106.9,
         102.1,
-        102.35
+        104.0,
+        103.87
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 655.4,
-      "change_pct_1d": 0.61,
-      "change_pct_5d": -5.62,
-      "change_pct_30d": -3.28,
+      "price": 663.0,
+      "change_pct_1d": 0.03,
+      "change_pct_5d": -3.91,
+      "change_pct_30d": -3.04,
       "week_52_high": 726.0,
       "week_52_low": 504.41,
       "history_90d": [
-        678.49,
-        682.69,
         686.28,
         677.69,
         651.29,
@@ -231,21 +227,20 @@
         688.0,
         688.4,
         651.4,
-        655.4
+        662.8,
+        663.0
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1430.2,
-      "change_pct_1d": -0.47,
-      "change_pct_5d": -5.42,
-      "change_pct_30d": -4.82,
+      "price": 1457.0,
+      "change_pct_1d": 1.03,
+      "change_pct_5d": -3.92,
+      "change_pct_30d": -4.04,
       "week_52_high": 1610.0,
       "week_52_low": 959.286,
       "history_90d": [
-        1445.13,
-        1450.93,
         1465.53,
         1453.33,
         1453.93,
@@ -309,16 +304,16 @@
         1510.0,
         1497.6,
         1437.0,
-        1430.2
+        1442.2,
+        1457.0
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.7329,
-    "change_1d": 0.0008,
+    "rate": 3.7331,
+    "change_1d": 0.0002,
     "history_90d": [
-      3.729,
       3.7295,
       3.7302,
       3.7291,
@@ -407,7 +402,8 @@
       3.73,
       3.7302,
       3.7321,
-      3.7329
+      3.7329,
+      3.7331
     ],
     "status": "green"
   },
@@ -425,14 +421,14 @@
       "published_at": "Tue, 22 Sep 2026 12:00:00 +0100"
     },
     {
-      "title": "Financial Stability in Focus: The bank capital framework",
-      "url": "https://www.bankofengland.co.uk/financial-stability-in-focus/2026/fsif-the-bank-capital-framework",
+      "title": "Financial Stability Report - July 2026",
+      "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/july-2026",
       "source": "Bank of England",
       "published_at": "Tue, 07 Jul 2026 10:30:00 +0100"
     },
     {
-      "title": "Financial Stability Report - July 2026",
-      "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/july-2026",
+      "title": "Financial Stability in Focus: The bank capital framework",
+      "url": "https://www.bankofengland.co.uk/financial-stability-in-focus/2026/fsif-the-bank-capital-framework",
       "source": "Bank of England",
       "published_at": "Tue, 07 Jul 2026 10:30:00 +0100"
     },
