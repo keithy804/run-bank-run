@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-05T15:34:55Z",
+  "updated_at": "2026-10-06T13:56:36Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 446.4,
-      "change_pct_1d": 0.62,
-      "change_pct_5d": -3.46,
-      "change_pct_30d": -9.38,
+      "price": 449.85,
+      "change_pct_1d": 0.71,
+      "change_pct_5d": -1.99,
+      "change_pct_30d": -9.19,
       "week_52_high": 538.3,
       "week_52_low": 353.55,
       "history_90d": [
@@ -74,16 +74,17 @@
         457.55,
         438.95,
         443.65,
-        446.4
+        446.7,
+        449.85
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 103.87,
-      "change_pct_1d": -0.12,
-      "change_pct_5d": -3.91,
-      "change_pct_30d": -6.63,
+      "price": 105.55,
+      "change_pct_1d": 1.49,
+      "change_pct_5d": -1.81,
+      "change_pct_30d": -5.42,
       "week_52_high": 117.9,
       "week_52_low": 81.82,
       "history_90d": [
@@ -151,16 +152,17 @@
         106.9,
         102.1,
         104.0,
-        103.87
+        104.0,
+        105.55
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 663.0,
-      "change_pct_1d": 0.03,
-      "change_pct_5d": -3.91,
-      "change_pct_30d": -3.04,
+      "price": 667.4,
+      "change_pct_1d": 0.6,
+      "change_pct_5d": -2.99,
+      "change_pct_30d": -3.11,
       "week_52_high": 726.0,
       "week_52_low": 504.41,
       "history_90d": [
@@ -228,16 +230,17 @@
         688.4,
         651.4,
         662.8,
-        663.0
+        663.4,
+        667.4
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1457.0,
-      "change_pct_1d": 1.03,
-      "change_pct_5d": -3.92,
-      "change_pct_30d": -4.04,
+      "price": 1473.8,
+      "change_pct_1d": 1.01,
+      "change_pct_5d": -2.4,
+      "change_pct_30d": -3.61,
       "week_52_high": 1610.0,
       "week_52_low": 959.286,
       "history_90d": [
@@ -305,16 +308,16 @@
         1497.6,
         1437.0,
         1442.2,
-        1457.0
+        1459.0,
+        1473.8
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.7331,
-    "change_1d": 0.0002,
+    "rate": 3.7317,
+    "change_1d": -0.0014,
     "history_90d": [
-      3.7295,
       3.7302,
       3.7291,
       3.7308,
@@ -403,7 +406,8 @@
       3.7302,
       3.7321,
       3.7329,
-      3.7331
+      3.7331,
+      3.7317
     ],
     "status": "green"
   },
@@ -421,16 +425,22 @@
       "published_at": "Tue, 22 Sep 2026 12:00:00 +0100"
     },
     {
+      "title": "Financial Stability in Focus: The bank capital framework",
+      "url": "https://www.bankofengland.co.uk/financial-stability-in-focus/2026/fsif-the-bank-capital-framework",
+      "source": "Bank of England",
+      "published_at": "Tue, 07 Jul 2026 10:30:00 +0100"
+    },
+    {
       "title": "Financial Stability Report - July 2026",
       "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/july-2026",
       "source": "Bank of England",
       "published_at": "Tue, 07 Jul 2026 10:30:00 +0100"
     },
     {
-      "title": "Financial Stability in Focus: The bank capital framework",
-      "url": "https://www.bankofengland.co.uk/financial-stability-in-focus/2026/fsif-the-bank-capital-framework",
-      "source": "Bank of England",
-      "published_at": "Tue, 07 Jul 2026 10:30:00 +0100"
+      "title": "Banks still refusing credit cards, watchdog says",
+      "url": "https://www.bbc.co.uk/news/articles/cwvg0lyl3v8eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "published_at": "Tue, 06 Oct 2026 05:23:32 GMT"
     },
     {
       "title": "Bank of England Weekly Report 29 July 2026",
@@ -461,12 +471,6 @@
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/19-august-2026",
       "source": "Bank of England",
       "published_at": "Thu, 20 Aug 2026 15:00:00 +0100"
-    },
-    {
-      "title": "Bank of England Weekly Report 16 September 2026",
-      "url": "https://www.bankofengland.co.uk/weekly-report/2026/16-september-2026",
-      "source": "Bank of England",
-      "published_at": "Thu, 17 Sep 2026 15:00:00 +0100"
     }
   ],
   "boe": {
