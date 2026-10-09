@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-10-08T14:23:32Z",
+  "updated_at": "2026-10-09T14:09:06Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 428.5,
-      "change_pct_1d": -0.82,
-      "change_pct_5d": -2.38,
-      "change_pct_30d": -14.22,
+      "price": 432.15,
+      "change_pct_1d": 1.41,
+      "change_pct_5d": -2.59,
+      "change_pct_30d": -12.27,
       "week_52_high": 538.3,
       "week_52_low": 353.55,
       "history_90d": [
-        512.44,
         506.94,
         512.54,
         509.94,
@@ -75,20 +74,20 @@
         446.7,
         447.3,
         432.05,
-        428.5
+        426.15,
+        432.15
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 101.35,
-      "change_pct_1d": -0.93,
-      "change_pct_5d": -0.73,
-      "change_pct_30d": -9.27,
+      "price": 101.8,
+      "change_pct_1d": 1.19,
+      "change_pct_5d": -2.12,
+      "change_pct_30d": -6.86,
       "week_52_high": 117.9,
       "week_52_low": 81.82,
       "history_90d": [
-        110.49,
         111.68,
         112.13,
         110.79,
@@ -153,20 +152,20 @@
         104.0,
         105.7,
         102.3,
-        101.35
+        100.6,
+        101.8
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
       "price": 646.8,
-      "change_pct_1d": -0.46,
-      "change_pct_5d": -0.71,
-      "change_pct_30d": -6.53,
+      "change_pct_1d": 1.09,
+      "change_pct_5d": -2.41,
+      "change_pct_30d": -4.66,
       "week_52_high": 726.0,
       "week_52_low": 504.41,
       "history_90d": [
-        651.29,
         662.89,
         662.29,
         654.89,
@@ -231,20 +230,20 @@
         663.4,
         668.4,
         649.8,
+        639.8,
         646.8
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1393.4,
-      "change_pct_1d": -1.04,
-      "change_pct_5d": -3.03,
-      "change_pct_30d": -8.46,
+      "price": 1399.2,
+      "change_pct_1d": 1.35,
+      "change_pct_5d": -2.98,
+      "change_pct_30d": -6.97,
       "week_52_high": 1610.0,
       "week_52_low": 959.286,
       "history_90d": [
-        1453.93,
         1456.33,
         1470.93,
         1461.93,
@@ -309,16 +308,16 @@
         1459.0,
         1472.2,
         1408.0,
-        1393.4
+        1380.6,
+        1399.2
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.7324,
-    "change_1d": 0.0001,
+    "rate": 3.7326,
+    "change_1d": 0.0002,
     "history_90d": [
-      3.7308,
       3.7306,
       3.7308,
       3.7312,
@@ -407,52 +406,23 @@
       3.7331,
       3.7317,
       3.7323,
-      3.7324
+      3.7324,
+      3.7326
     ],
     "status": "green"
   },
   "news": [
     {
-      "title": "The Bank of England\u2019s fees regime for financial market infrastructure supervision for CCPs and CSDs 2026/27",
-      "url": "https://www.bankofengland.co.uk/paper/2026/ps/the-boes-fees-regime-for-fmi-supervision-for-ccps-and-csds-2026-27",
-      "source": "Bank of England",
-      "published_at": "Wed, 08 Jul 2026 10:00:00 +0100"
-    },
-    {
       "title": "The wildlife winners set to appear on your banknotes revealed",
       "url": "https://www.bbc.co.uk/news/articles/cwe8ld517ry3o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business",
       "published_at": "Wed, 07 Oct 2026 23:01:30 GMT"
-    },
-    {
-      "title": "The wildlife winners set to appear on your banknotes revealed",
-      "url": "https://www.bbc.co.uk/news/articles/cwe8ld517ry3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "published_at": "Wed, 07 Oct 2026 23:01:30 GMT"
-    },
-    {
-      "title": "Ex-bankers jailed for rigging rates have convictions quashed",
-      "url": "https://www.bbc.co.uk/news/articles/cm4g175e8163o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "published_at": "Wed, 07 Oct 2026 13:52:13 GMT"
     },
     {
       "title": "The Bank of England\u2019s fees regime for recognised payment systems and specified service providers supervision 2026/27",
       "url": "https://www.bankofengland.co.uk/paper/2026/cp/the-boes-fees-regime-for-recognised-payment-systems-and-ssps-supervision-2026-27",
       "source": "Bank of England",
       "published_at": "Tue, 22 Sep 2026 12:00:00 +0100"
-    },
-    {
-      "title": "Financial Stability Report - July 2026",
-      "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/july-2026",
-      "source": "Bank of England",
-      "published_at": "Tue, 07 Jul 2026 10:30:00 +0100"
-    },
-    {
-      "title": "Financial Stability in Focus: The bank capital framework",
-      "url": "https://www.bankofengland.co.uk/financial-stability-in-focus/2026/fsif-the-bank-capital-framework",
-      "source": "Bank of England",
-      "published_at": "Tue, 07 Jul 2026 10:30:00 +0100"
     },
     {
       "title": "Bank of England Weekly Report 29 July 2026",
@@ -471,6 +441,36 @@
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/23-september-2026",
       "source": "Bank of England",
       "published_at": "Thu, 24 Sep 2026 15:00:00 +0100"
+    },
+    {
+      "title": "Bank of England Weekly Report 22 July 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/22-july-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 23 Jul 2026 15:00:00 +0100"
+    },
+    {
+      "title": "Bank of England Weekly Report 19 August 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/19-august-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 20 Aug 2026 15:00:00 +0100"
+    },
+    {
+      "title": "Bank of England Weekly Report 16 September 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/16-september-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 17 Sep 2026 15:00:00 +0100"
+    },
+    {
+      "title": "Bank of England Weekly Report 15 July 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/15-july-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 16 Jul 2026 15:00:00 +0100"
+    },
+    {
+      "title": "Bank of England Weekly Report 12 August 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/12-august-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 13 Aug 2026 15:00:00 +0100"
     }
   ],
   "boe": {
