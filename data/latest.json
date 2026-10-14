@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-10-13T14:48:43Z",
+  "updated_at": "2026-10-14T12:39:50Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 435.35,
-      "change_pct_1d": 1.33,
-      "change_pct_5d": -2.54,
-      "change_pct_30d": -12.34,
+      "price": 435.45,
+      "change_pct_1d": -0.14,
+      "change_pct_5d": 0.79,
+      "change_pct_30d": -9.93,
       "week_52_high": 538.3,
       "week_52_low": 353.55,
       "history_90d": [
-        509.94,
         519.84,
         524.44,
         524.74,
@@ -74,20 +73,21 @@
         432.05,
         426.15,
         429.65,
-        435.35
+        437.6,
+        436.05,
+        435.45
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 104.35,
-      "change_pct_1d": 2.71,
-      "change_pct_5d": 0.34,
-      "change_pct_30d": -5.09,
+      "price": 104.3,
+      "change_pct_1d": -0.1,
+      "change_pct_5d": 1.96,
+      "change_pct_30d": -5.57,
       "week_52_high": 117.9,
       "week_52_low": 81.82,
       "history_90d": [
-        110.79,
         111.93,
         112.48,
         112.63,
@@ -151,20 +151,21 @@
         102.3,
         100.6,
         101.6,
-        104.35
+        104.0,
+        104.4,
+        104.3
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 668.0,
-      "change_pct_1d": 3.95,
-      "change_pct_5d": 0.69,
-      "change_pct_30d": -1.68,
+      "price": 666.6,
+      "change_pct_1d": -0.09,
+      "change_pct_5d": 2.59,
+      "change_pct_30d": -2.91,
       "week_52_high": 726.0,
       "week_52_low": 504.41,
       "history_90d": [
-        654.89,
         649.69,
         663.29,
         664.49,
@@ -228,20 +229,21 @@
         649.8,
         639.8,
         642.6,
-        668.0
+        653.6,
+        667.2,
+        666.6
       ],
-      "status": "amber"
+      "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1425.6,
-      "change_pct_1d": 2.13,
-      "change_pct_5d": -2.29,
-      "change_pct_30d": -6.73,
+      "price": 1414.6,
+      "change_pct_1d": -1.13,
+      "change_pct_5d": 0.47,
+      "change_pct_30d": -8.45,
       "week_52_high": 1610.0,
       "week_52_low": 959.286,
       "history_90d": [
-        1461.93,
         1489.93,
         1479.73,
         1493.73,
@@ -305,16 +307,17 @@
         1408.0,
         1380.6,
         1395.8,
-        1425.6
+        1428.4,
+        1430.8,
+        1414.6
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.7331,
-    "change_1d": -0.0001,
+    "rate": 3.7323,
+    "change_1d": -0.0008,
     "history_90d": [
-      3.7312,
       3.73,
       3.7271,
       3.7296,
@@ -403,11 +406,18 @@
       3.7324,
       3.7326,
       3.7332,
-      3.7331
+      3.7331,
+      3.7323
     ],
     "status": "green"
   },
   "news": [
+    {
+      "title": "Bank of America hit with $1.2bn fine for money laundering failings",
+      "url": "https://www.bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "published_at": "Wed, 14 Oct 2026 02:05:32 GMT"
+    },
     {
       "title": "The Bank of England\u2019s fees regime for recognised payment systems and specified service providers supervision 2026/27",
       "url": "https://www.bankofengland.co.uk/paper/2026/cp/the-boes-fees-regime-for-recognised-payment-systems-and-ssps-supervision-2026-27",
@@ -461,12 +471,6 @@
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/12-august-2026",
       "source": "Bank of England",
       "published_at": "Thu, 13 Aug 2026 15:00:00 +0100"
-    },
-    {
-      "title": "Bank of England Weekly Report 9 September 2026",
-      "url": "https://www.bankofengland.co.uk/weekly-report/2026/9-september-2026",
-      "source": "Bank of England",
-      "published_at": "Thu, 10 Sep 2026 15:00:00 +0100"
     }
   ],
   "boe": {
