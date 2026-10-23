@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-10-22T12:47:32Z",
+  "updated_at": "2026-10-23T12:26:04Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 418.2,
-      "change_pct_1d": -0.24,
-      "change_pct_5d": -3.28,
-      "change_pct_30d": -13.66,
+      "price": 404.2,
+      "change_pct_1d": -1.28,
+      "change_pct_5d": -6.58,
+      "change_pct_30d": -18.14,
       "week_52_high": 538.3,
       "week_52_low": 361.35,
       "history_90d": [
-        526.94,
         519.44,
         525.34,
         530.34,
@@ -75,20 +74,20 @@
         417.5,
         418.85,
         419.2,
-        418.2
+        409.45,
+        404.2
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 101.85,
-      "change_pct_1d": -1.36,
-      "change_pct_5d": -3.78,
-      "change_pct_30d": -6.65,
+      "price": 100.55,
+      "change_pct_1d": 0.15,
+      "change_pct_5d": -4.1,
+      "change_pct_30d": -9.54,
       "week_52_high": 123.1,
-      "week_52_low": 83.522,
+      "week_52_low": 83.974,
       "history_90d": [
-        114.83,
         112.43,
         113.48,
         114.68,
@@ -153,20 +152,20 @@
         103.05,
         101.9,
         103.25,
-        101.85
+        100.4,
+        100.55
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 641.2,
-      "change_pct_1d": -1.14,
-      "change_pct_5d": -4.87,
-      "change_pct_30d": -6.04,
+      "price": 624.2,
+      "change_pct_1d": -1.2,
+      "change_pct_5d": -6.28,
+      "change_pct_30d": -10.55,
       "week_52_high": 788.2,
       "week_52_low": 504.41,
       "history_90d": [
-        684.49,
         670.49,
         675.89,
         680.69,
@@ -231,20 +230,20 @@
         648.0,
         641.4,
         648.6,
-        641.2
+        631.8,
+        624.2
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1374.0,
-      "change_pct_1d": -1.76,
-      "change_pct_5d": -3.32,
-      "change_pct_30d": -10.14,
+      "price": 1350.2,
+      "change_pct_1d": -1.2,
+      "change_pct_5d": -5.45,
+      "change_pct_30d": -13.04,
       "week_52_high": 1610.0,
       "week_52_low": 979.8,
       "history_90d": [
-        1540.93,
         1526.93,
         1552.73,
         1551.13,
@@ -309,16 +308,16 @@
         1397.2,
         1385.2,
         1398.6,
-        1374.0
+        1366.6,
+        1350.2
       ],
       "status": "green"
     }
   },
   "sonia": {
     "rate": 3.734,
-    "change_1d": 0.0003,
+    "change_1d": 0.0,
     "history_90d": [
-      3.7304,
       3.7303,
       3.73,
       3.7294,
@@ -407,6 +406,7 @@
       3.7335,
       3.7344,
       3.7337,
+      3.734,
       3.734
     ],
     "status": "green"
@@ -423,12 +423,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cxdd8mm6qy4mo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business",
       "published_at": "Tue, 20 Oct 2026 18:03:19 GMT"
-    },
-    {
-      "title": "Union attacks NatWest plans to get workers back to the office",
-      "url": "https://www.bbc.co.uk/news/articles/cmly0qwnlgdvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "published_at": "Tue, 20 Oct 2026 14:50:19 GMT"
     },
     {
       "title": "Bank of England Weekly Report 29 July 2026",
@@ -455,10 +449,16 @@
       "published_at": "Thu, 23 Jul 2026 15:00:00 +0100"
     },
     {
+      "title": "Bank of England Weekly Report 21 October 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/21-october-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 22 Oct 2026 15:00:00 +0100"
+    },
+    {
       "title": "Barclays cutting 5,000 jobs as it increases reliance on AI",
       "url": "https://www.bbc.co.uk/news/articles/cm4g1p347qgxo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business",
-      "published_at": "Thu, 22 Oct 2026 09:37:58 GMT"
+      "published_at": "Thu, 22 Oct 2026 14:28:59 GMT"
     },
     {
       "title": "Bank of England Weekly Report 19 August 2026",
