@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-26T13:55:15Z",
+  "updated_at": "2026-10-27T12:59:39Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 417.7,
-      "change_pct_1d": 2.63,
-      "change_pct_5d": 0.05,
-      "change_pct_30d": -12.71,
+      "price": 420.25,
+      "change_pct_1d": 0.36,
+      "change_pct_5d": 0.33,
+      "change_pct_30d": -10.64,
       "week_52_high": 538.3,
       "week_52_low": 361.35,
       "history_90d": [
@@ -74,16 +74,17 @@
         419.2,
         409.45,
         407.0,
-        417.7
+        418.75,
+        420.25
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 102.45,
-      "change_pct_1d": 1.79,
-      "change_pct_5d": -0.58,
-      "change_pct_30d": -6.31,
+      "price": 101.78,
+      "change_pct_1d": -0.71,
+      "change_pct_5d": -0.12,
+      "change_pct_30d": -6.54,
       "week_52_high": 123.1,
       "week_52_low": 84.64,
       "history_90d": [
@@ -151,16 +152,17 @@
         103.25,
         100.4,
         100.65,
-        102.45
+        102.5,
+        101.78
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 641.2,
-      "change_pct_1d": 2.2,
-      "change_pct_5d": -1.05,
-      "change_pct_30d": -6.09,
+      "price": 634.0,
+      "change_pct_1d": -1.55,
+      "change_pct_5d": -1.15,
+      "change_pct_30d": -8.01,
       "week_52_high": 788.2,
       "week_52_low": 504.41,
       "history_90d": [
@@ -228,18 +230,19 @@
         648.6,
         631.8,
         627.4,
-        641.2
+        644.0,
+        634.0
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1371.4,
-      "change_pct_1d": 1.43,
-      "change_pct_5d": -1.85,
-      "change_pct_30d": -10.76,
+      "price": 1267.0,
+      "change_pct_1d": -7.21,
+      "change_pct_5d": -8.53,
+      "change_pct_30d": -15.75,
       "week_52_high": 1610.0,
-      "week_52_low": 979.8,
+      "week_52_low": 1025.4,
       "history_90d": [
         1551.13,
         1548.33,
@@ -305,16 +308,16 @@
         1398.6,
         1366.6,
         1352.0,
-        1371.4
+        1365.4,
+        1267.0
       ],
-      "status": "green"
+      "status": "red"
     }
   },
   "sonia": {
-    "rate": 3.7345,
-    "change_1d": 0.0005,
+    "rate": 3.7338,
+    "change_1d": -0.0007,
     "history_90d": [
-      3.73,
       3.7294,
       3.7292,
       3.7295,
@@ -403,7 +406,8 @@
       3.7337,
       3.734,
       3.734,
-      3.7345
+      3.7345,
+      3.7338
     ],
     "status": "green"
   },
@@ -445,12 +449,6 @@
       "published_at": "Thu, 22 Oct 2026 15:00:00 +0100"
     },
     {
-      "title": "Barclays cutting 5,000 jobs as it increases reliance on AI",
-      "url": "https://www.bbc.co.uk/news/articles/cm4g1p347qgxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "published_at": "Thu, 22 Oct 2026 14:28:59 GMT"
-    },
-    {
       "title": "Bank of England Weekly Report 19 August 2026",
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/19-august-2026",
       "source": "Bank of England",
@@ -467,6 +465,12 @@
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/14-october-2026",
       "source": "Bank of England",
       "published_at": "Thu, 15 Oct 2026 15:00:00 +0100"
+    },
+    {
+      "title": "Bank of England Weekly Report 12 August 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/12-august-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 13 Aug 2026 15:00:00 +0100"
     }
   ],
   "boe": {
@@ -483,11 +487,17 @@
   },
   "alerts": [
     {
+      "type": "price_drop_1d",
+      "bank": "HSBA.L",
+      "severity": "red",
+      "message": "HSBC dropped 7.2% today"
+    },
+    {
       "type": "news_cluster",
       "bank": null,
       "severity": "amber",
       "message": "10 banking-related headlines today"
     }
   ],
-  "overall_status": "amber"
+  "overall_status": "red"
 }
