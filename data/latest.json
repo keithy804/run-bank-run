@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-10-29T13:57:07Z",
+  "updated_at": "2026-10-30T13:51:44Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 433.4,
-      "change_pct_1d": 1.05,
-      "change_pct_5d": 5.85,
-      "change_pct_30d": -9.49,
+      "price": 417.0,
+      "change_pct_1d": -3.49,
+      "change_pct_5d": 2.46,
+      "change_pct_30d": -9.78,
       "week_52_high": 538.3,
       "week_52_low": 361.35,
       "history_90d": [
-        492.44,
         510.84,
         508.64,
         514.94,
@@ -75,20 +74,20 @@
         418.75,
         422.05,
         428.9,
-        433.4
+        432.1,
+        417.0
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 99.78,
-      "change_pct_1d": -3.97,
-      "change_pct_5d": -0.62,
-      "change_pct_30d": -11.07,
+      "price": 94.72,
+      "change_pct_1d": -3.99,
+      "change_pct_5d": -5.89,
+      "change_pct_30d": -13.06,
       "week_52_high": 123.1,
       "week_52_low": 84.64,
       "history_90d": [
-        111.33,
         115.63,
         114.68,
         116.58,
@@ -153,20 +152,20 @@
         102.5,
         102.15,
         103.9,
-        99.78
+        98.66,
+        94.72
       ],
       "status": "amber"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 637.8,
-      "change_pct_1d": -1.39,
-      "change_pct_5d": 0.95,
-      "change_pct_30d": -10.52,
+      "price": 584.0,
+      "change_pct_1d": -8.06,
+      "change_pct_5d": -6.92,
+      "change_pct_30d": -16.5,
       "week_52_high": 788.2,
       "week_52_low": 504.41,
       "history_90d": [
-        664.89,
         683.69,
         705.68,
         722.68,
@@ -231,20 +230,20 @@
         644.0,
         634.4,
         646.8,
-        637.8
+        635.2,
+        584.0
       ],
-      "status": "green"
+      "status": "red"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1300.8,
-      "change_pct_1d": 0.32,
-      "change_pct_5d": -4.81,
-      "change_pct_30d": -15.39,
+      "price": 1273.8,
+      "change_pct_1d": -1.45,
+      "change_pct_5d": -5.78,
+      "change_pct_30d": -15.79,
       "week_52_high": 1610.0,
       "week_52_low": 1027.8,
       "history_90d": [
-        1547.73,
         1586.92,
         1575.92,
         1597.32,
@@ -309,16 +308,16 @@
         1365.4,
         1291.4,
         1296.6,
-        1300.8
+        1292.6,
+        1273.8
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.734,
-    "change_1d": 0.0012,
+    "rate": 3.7338,
+    "change_1d": -0.0002,
     "history_90d": [
-      3.7295,
       3.729,
       3.7287,
       3.729,
@@ -407,7 +406,8 @@
       3.7345,
       3.7338,
       3.7328,
-      3.734
+      3.734,
+      3.7338
     ],
     "status": "green"
   },
@@ -431,6 +431,12 @@
       "published_at": "Thu, 30 Jul 2026 15:00:00 +0100"
     },
     {
+      "title": "Bank of England Weekly Report 28 October 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/28-october-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 29 Oct 2026 15:00:00 Z"
+    },
+    {
       "title": "Bank of England Weekly Report 26 August 2026",
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/26-august-2026",
       "source": "Bank of England",
@@ -441,12 +447,6 @@
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/23-september-2026",
       "source": "Bank of England",
       "published_at": "Thu, 24 Sep 2026 15:00:00 +0100"
-    },
-    {
-      "title": "Bank of England Weekly Report 22 July 2026",
-      "url": "https://www.bankofengland.co.uk/weekly-report/2026/22-july-2026",
-      "source": "Bank of England",
-      "published_at": "Thu, 23 Jul 2026 15:00:00 +0100"
     },
     {
       "title": "Bank of England Weekly Report 21 October 2026",
@@ -477,15 +477,15 @@
     "ccyb_rate": 2.0,
     "next_fsr_date": "Nov 2026",
     "next_ccyb_decision": "Q2 2026",
-    "recent_announcements": [
-      {
-        "title": "Systemic Risk Survey Results - 2026 H2",
-        "url": "https://www.bankofengland.co.uk/systemic-risk-survey/2026/2026-h2",
-        "published_at": "Wed, 30 Sep 2026 10:30:00 +0100"
-      }
-    ]
+    "recent_announcements": []
   },
   "alerts": [
+    {
+      "type": "price_drop_1d",
+      "bank": "NWG.L",
+      "severity": "red",
+      "message": "NatWest dropped 8.1% today"
+    },
     {
       "type": "news_cluster",
       "bank": null,
@@ -493,5 +493,5 @@
       "message": "10 banking-related headlines today"
     }
   ],
-  "overall_status": "amber"
+  "overall_status": "red"
 }

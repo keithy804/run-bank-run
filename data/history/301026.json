@@ -1,0 +1,66 @@
+{
+  "date": "301026",
+  "updated_at": "2026-10-30T13:51:44Z",
+  "prices": {
+    "BARC.L": {
+      "name": "Barclays",
+      "price": 417.0,
+      "change_pct_1d": -3.49,
+      "change_pct_5d": 2.46,
+      "change_pct_30d": -9.78,
+      "week_52_high": 538.3,
+      "week_52_low": 361.35,
+      "status": "green"
+    },
+    "LLOY.L": {
+      "name": "Lloyds",
+      "price": 94.72,
+      "change_pct_1d": -3.99,
+      "change_pct_5d": -5.89,
+      "change_pct_30d": -13.06,
+      "week_52_high": 123.1,
+      "week_52_low": 84.64,
+      "status": "amber"
+    },
+    "NWG.L": {
+      "name": "NatWest",
+      "price": 584.0,
+      "change_pct_1d": -8.06,
+      "change_pct_5d": -6.92,
+      "change_pct_30d": -16.5,
+      "week_52_high": 788.2,
+      "week_52_low": 504.41,
+      "status": "red"
+    },
+    "HSBA.L": {
+      "name": "HSBC",
+      "price": 1273.8,
+      "change_pct_1d": -1.45,
+      "change_pct_5d": -5.78,
+      "change_pct_30d": -15.79,
+      "week_52_high": 1610.0,
+      "week_52_low": 1027.8,
+      "status": "green"
+    }
+  },
+  "sonia": {
+    "rate": 3.7338,
+    "change_1d": -0.0002,
+    "status": "green"
+  },
+  "alerts": [
+    {
+      "type": "price_drop_1d",
+      "bank": "NWG.L",
+      "severity": "red",
+      "message": "NatWest dropped 8.1% today"
+    },
+    {
+      "type": "news_cluster",
+      "bank": null,
+      "severity": "amber",
+      "message": "10 banking-related headlines today"
+    }
+  ],
+  "overall_status": "red"
+}
