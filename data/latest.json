@@ -1,17 +1,15 @@
 {
-  "updated_at": "2026-10-30T13:51:44Z",
+  "updated_at": "2026-11-02T16:51:04Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 417.0,
-      "change_pct_1d": -3.49,
-      "change_pct_5d": 2.46,
-      "change_pct_30d": -9.78,
+      "price": 424.1,
+      "change_pct_1d": 2.18,
+      "change_pct_5d": 1.28,
+      "change_pct_30d": -9.98,
       "week_52_high": 538.3,
       "week_52_low": 361.35,
       "history_90d": [
-        510.84,
-        508.64,
         514.94,
         522.24,
         527.44,
@@ -75,21 +73,20 @@
         422.05,
         428.9,
         432.1,
-        417.0
+        415.05,
+        424.1
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 94.72,
-      "change_pct_1d": -3.99,
-      "change_pct_5d": -5.89,
-      "change_pct_30d": -13.06,
+      "price": 95.22,
+      "change_pct_1d": 1.84,
+      "change_pct_5d": -7.1,
+      "change_pct_30d": -13.44,
       "week_52_high": 123.1,
       "week_52_low": 84.64,
       "history_90d": [
-        115.63,
-        114.68,
         116.58,
         117.03,
         117.08,
@@ -153,21 +150,20 @@
         102.15,
         103.9,
         98.66,
-        94.72
+        93.5,
+        95.22
       ],
-      "status": "amber"
+      "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 584.0,
-      "change_pct_1d": -8.06,
-      "change_pct_5d": -6.92,
-      "change_pct_30d": -16.5,
+      "price": 592.2,
+      "change_pct_1d": 2.17,
+      "change_pct_5d": -8.04,
+      "change_pct_30d": -16.47,
       "week_52_high": 788.2,
       "week_52_low": 504.41,
       "history_90d": [
-        683.69,
-        705.68,
         722.68,
         715.88,
         713.68,
@@ -231,21 +227,20 @@
         634.4,
         646.8,
         635.2,
-        584.0
+        579.6,
+        592.2
       ],
-      "status": "red"
+      "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1273.8,
-      "change_pct_1d": -1.45,
-      "change_pct_5d": -5.78,
-      "change_pct_30d": -15.79,
+      "price": 1283.4,
+      "change_pct_1d": 0.5,
+      "change_pct_5d": -6.01,
+      "change_pct_30d": -16.33,
       "week_52_high": 1610.0,
       "week_52_low": 1027.8,
       "history_90d": [
-        1586.92,
-        1575.92,
         1597.32,
         1584.52,
         1510.53,
@@ -309,16 +304,16 @@
         1291.4,
         1296.6,
         1292.6,
-        1273.8
+        1277.0,
+        1283.4
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.7338,
-    "change_1d": -0.0002,
+    "rate": 3.7352,
+    "change_1d": 0.0014,
     "history_90d": [
-      3.729,
       3.7287,
       3.729,
       3.7292,
@@ -407,17 +402,12 @@
       3.7338,
       3.7328,
       3.734,
-      3.7338
+      3.7338,
+      3.7352
     ],
     "status": "green"
   },
   "news": [
-    {
-      "title": "Healey unveils \u00a3100 for energy bills and bank tax in first Budget",
-      "url": "https://www.bbc.co.uk/news/articles/cqpvgxz3y49go?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "published_at": "Wed, 28 Oct 2026 18:45:09 GMT"
-    },
     {
       "title": "The Bank of England\u2019s fees regime for recognised payment systems and specified service providers supervision 2026/27",
       "url": "https://www.bankofengland.co.uk/paper/2026/cp/the-boes-fees-regime-for-recognised-payment-systems-and-ssps-supervision-2026-27",
@@ -471,6 +461,12 @@
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/14-october-2026",
       "source": "Bank of England",
       "published_at": "Thu, 15 Oct 2026 15:00:00 +0100"
+    },
+    {
+      "title": "Bank of England Weekly Report 12 August 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/12-august-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 13 Aug 2026 15:00:00 +0100"
     }
   ],
   "boe": {
@@ -481,17 +477,11 @@
   },
   "alerts": [
     {
-      "type": "price_drop_1d",
-      "bank": "NWG.L",
-      "severity": "red",
-      "message": "NatWest dropped 8.1% today"
-    },
-    {
       "type": "news_cluster",
       "bank": null,
       "severity": "amber",
       "message": "10 banking-related headlines today"
     }
   ],
-  "overall_status": "red"
+  "overall_status": "amber"
 }
