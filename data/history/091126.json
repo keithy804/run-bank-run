@@ -1,0 +1,66 @@
+{
+  "date": "091126",
+  "updated_at": "2026-11-09T17:11:13Z",
+  "prices": {
+    "BARC.L": {
+      "name": "Barclays",
+      "price": 429.65,
+      "change_pct_1d": 2.24,
+      "change_pct_5d": 1.31,
+      "change_pct_30d": -7.08,
+      "week_52_high": 538.3,
+      "week_52_low": 361.35,
+      "status": "green"
+    },
+    "LLOY.L": {
+      "name": "Lloyds",
+      "price": 97.96,
+      "change_pct_1d": 2.17,
+      "change_pct_5d": 2.88,
+      "change_pct_30d": -9.38,
+      "week_52_high": 123.1,
+      "week_52_low": 84.64,
+      "status": "green"
+    },
+    "NWG.L": {
+      "name": "NatWest",
+      "price": 597.6,
+      "change_pct_1d": 1.74,
+      "change_pct_5d": 0.91,
+      "change_pct_30d": -13.39,
+      "week_52_high": 788.2,
+      "week_52_low": 504.41,
+      "status": "green"
+    },
+    "HSBA.L": {
+      "name": "HSBC",
+      "price": 1337.2,
+      "change_pct_1d": 2.5,
+      "change_pct_5d": 4.2,
+      "change_pct_30d": -11.81,
+      "week_52_high": 1610.0,
+      "week_52_low": 1027.8,
+      "status": "green"
+    }
+  },
+  "sonia": {
+    "rate": 3.9824,
+    "change_1d": 0.2489,
+    "status": "red"
+  },
+  "alerts": [
+    {
+      "type": "sonia_spike",
+      "bank": null,
+      "severity": "red",
+      "message": "SONIA moved +0.249% in a single day"
+    },
+    {
+      "type": "news_cluster",
+      "bank": null,
+      "severity": "amber",
+      "message": "10 banking-related headlines today"
+    }
+  ],
+  "overall_status": "red"
+}
