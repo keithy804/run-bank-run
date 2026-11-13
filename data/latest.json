@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-11-12T15:46:43Z",
+  "updated_at": "2026-11-13T15:07:11Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 431.7,
-      "change_pct_1d": -0.7,
-      "change_pct_5d": 1.82,
-      "change_pct_30d": -1.65,
+      "price": 429.65,
+      "change_pct_1d": -0.57,
+      "change_pct_5d": 2.24,
+      "change_pct_30d": -3.16,
       "week_52_high": 538.3,
       "week_52_low": 361.35,
       "history_90d": [
-        519.4,
         519.0,
         520.5,
         515.4,
@@ -75,20 +74,20 @@
         429.65,
         430.05,
         434.75,
-        431.7
+        432.1,
+        429.65
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 97.96,
-      "change_pct_1d": -0.08,
-      "change_pct_5d": 1.06,
-      "change_pct_30d": -4.05,
+      "price": 98.26,
+      "change_pct_1d": -0.02,
+      "change_pct_5d": 2.48,
+      "change_pct_30d": -5.52,
       "week_52_high": 123.1,
       "week_52_low": 84.64,
       "history_90d": [
-        115.2,
         115.3,
         115.2,
         114.7,
@@ -153,20 +152,20 @@
         97.96,
         96.74,
         98.04,
-        97.96
+        98.28,
+        98.26
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 595.8,
-      "change_pct_1d": -0.7,
-      "change_pct_5d": 0.44,
-      "change_pct_30d": -8.54,
+      "price": 597.3,
+      "change_pct_1d": 0.02,
+      "change_pct_5d": 1.69,
+      "change_pct_30d": -9.88,
       "week_52_high": 788.2,
       "week_52_low": 504.41,
       "history_90d": [
-        714.48,
         705.6,
         707.8,
         709.0,
@@ -231,20 +230,20 @@
         597.6,
         591.8,
         600.0,
-        595.8
+        597.2,
+        597.3
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1349.0,
-      "change_pct_1d": -0.49,
-      "change_pct_5d": 3.18,
-      "change_pct_30d": -6.12,
+      "price": 1351.2,
+      "change_pct_1d": -0.21,
+      "change_pct_5d": 3.57,
+      "change_pct_30d": -6.3,
       "week_52_high": 1610.0,
       "week_52_low": 1027.8,
       "history_90d": [
-        1537.61,
         1525.68,
         1527.68,
         1530.88,
@@ -309,16 +308,16 @@
         1337.2,
         1341.4,
         1355.6,
-        1349.0
+        1354.0,
+        1351.2
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.9837,
-    "change_1d": -0.0005,
+    "rate": 3.9845,
+    "change_1d": 0.0008,
     "history_90d": [
-      3.7297,
       3.7303,
       3.7311,
       3.731,
@@ -407,7 +406,8 @@
       3.9824,
       3.9852,
       3.9842,
-      3.9837
+      3.9837,
+      3.9845
     ],
     "status": "green"
   },
@@ -443,12 +443,6 @@
       "published_at": "Thu, 22 Oct 2026 15:00:00 +0100"
     },
     {
-      "title": "Bank of England Weekly Report 19 August 2026",
-      "url": "https://www.bankofengland.co.uk/weekly-report/2026/19-august-2026",
-      "source": "Bank of England",
-      "published_at": "Thu, 20 Aug 2026 15:00:00 +0100"
-    },
-    {
       "title": "Bank of England Weekly Report 16 September 2026",
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/16-september-2026",
       "source": "Bank of England",
@@ -459,6 +453,12 @@
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/14-october-2026",
       "source": "Bank of England",
       "published_at": "Thu, 15 Oct 2026 15:00:00 +0100"
+    },
+    {
+      "title": "Bank of England Weekly Report 11 November 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/11-november-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 12 Nov 2026 15:00:00 Z"
     },
     {
       "title": "Bank of England Weekly Report 9 September 2026",
