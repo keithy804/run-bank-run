@@ -1,17 +1,15 @@
 {
-  "updated_at": "2026-11-13T15:07:11Z",
+  "updated_at": "2026-11-16T16:46:09Z",
   "prices": {
     "BARC.L": {
       "name": "Barclays",
-      "price": 429.65,
-      "change_pct_1d": -0.57,
-      "change_pct_5d": 2.24,
-      "change_pct_30d": -3.16,
+      "price": 427.6,
+      "change_pct_1d": -0.87,
+      "change_pct_5d": -0.48,
+      "change_pct_30d": -4.28,
       "week_52_high": 538.3,
       "week_52_low": 361.35,
       "history_90d": [
-        519.0,
-        520.5,
         515.4,
         503.6,
         496.1,
@@ -75,21 +73,20 @@
         430.05,
         434.75,
         432.1,
-        429.65
+        431.35,
+        427.6
       ],
       "status": "green"
     },
     "LLOY.L": {
       "name": "Lloyds",
-      "price": 98.26,
-      "change_pct_1d": -0.02,
-      "change_pct_5d": 2.48,
-      "change_pct_30d": -5.52,
+      "price": 98.02,
+      "change_pct_1d": -0.59,
+      "change_pct_5d": 0.06,
+      "change_pct_30d": -5.75,
       "week_52_high": 123.1,
       "week_52_low": 84.64,
       "history_90d": [
-        115.3,
-        115.2,
         114.7,
         112.75,
         110.35,
@@ -153,21 +150,20 @@
         96.74,
         98.04,
         98.28,
-        98.26
+        98.6,
+        98.02
       ],
       "status": "green"
     },
     "NWG.L": {
       "name": "NatWest",
-      "price": 597.3,
-      "change_pct_1d": 0.02,
-      "change_pct_5d": 1.69,
-      "change_pct_30d": -9.88,
+      "price": 595.2,
+      "change_pct_1d": -0.8,
+      "change_pct_5d": -0.4,
+      "change_pct_30d": -10.28,
       "week_52_high": 788.2,
       "week_52_low": 504.41,
       "history_90d": [
-        705.6,
-        707.8,
         709.0,
         693.2,
         682.0,
@@ -231,21 +227,20 @@
         591.8,
         600.0,
         597.2,
-        597.3
+        600.0,
+        595.2
       ],
       "status": "green"
     },
     "HSBA.L": {
       "name": "HSBC",
-      "price": 1351.2,
-      "change_pct_1d": -0.21,
-      "change_pct_5d": 3.57,
-      "change_pct_30d": -6.3,
+      "price": 1349.4,
+      "change_pct_1d": -0.37,
+      "change_pct_5d": 0.91,
+      "change_pct_30d": -7.5,
       "week_52_high": 1610.0,
       "week_52_low": 1027.8,
       "history_90d": [
-        1525.68,
-        1527.68,
         1530.88,
         1514.49,
         1497.09,
@@ -309,16 +304,16 @@
         1341.4,
         1355.6,
         1354.0,
-        1351.2
+        1354.4,
+        1349.4
       ],
       "status": "green"
     }
   },
   "sonia": {
-    "rate": 3.9845,
-    "change_1d": 0.0008,
+    "rate": 3.9846,
+    "change_1d": 0.0001,
     "history_90d": [
-      3.7303,
       3.7311,
       3.731,
       3.7308,
@@ -407,7 +402,8 @@
       3.9852,
       3.9842,
       3.9837,
-      3.9845
+      3.9845,
+      3.9846
     ],
     "status": "green"
   },
@@ -423,12 +419,6 @@
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/28-october-2026",
       "source": "Bank of England",
       "published_at": "Thu, 29 Oct 2026 15:00:00 Z"
-    },
-    {
-      "title": "Bank of England Weekly Report 26 August 2026",
-      "url": "https://www.bankofengland.co.uk/weekly-report/2026/26-august-2026",
-      "source": "Bank of England",
-      "published_at": "Thu, 27 Aug 2026 15:00:00 +0100"
     },
     {
       "title": "Bank of England Weekly Report 23 September 2026",
@@ -461,16 +451,22 @@
       "published_at": "Thu, 12 Nov 2026 15:00:00 Z"
     },
     {
-      "title": "Bank of England Weekly Report 9 September 2026",
-      "url": "https://www.bankofengland.co.uk/weekly-report/2026/9-september-2026",
-      "source": "Bank of England",
-      "published_at": "Thu, 10 Sep 2026 15:00:00 +0100"
-    },
-    {
       "title": "Bank of England Weekly Report 7 October 2026",
       "url": "https://www.bankofengland.co.uk/weekly-report/2026/7-october-2026",
       "source": "Bank of England",
       "published_at": "Thu, 08 Oct 2026 15:00:00 +0100"
+    },
+    {
+      "title": "Bank Liabilities Survey - 2026 Q3",
+      "url": "https://www.bankofengland.co.uk/bank-liabilities-survey/2026/2026-q3",
+      "source": "Bank of England",
+      "published_at": "Thu, 08 Oct 2026 09:30:00 +0100"
+    },
+    {
+      "title": "Bank of England Weekly Report 4 November 2026",
+      "url": "https://www.bankofengland.co.uk/weekly-report/2026/4-november-2026",
+      "source": "Bank of England",
+      "published_at": "Thu, 05 Nov 2026 15:17:30 Z"
     }
   ],
   "boe": {
